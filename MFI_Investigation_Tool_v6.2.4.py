@@ -48,11 +48,11 @@ def check_activation():
     except Exception as e:
         return False
 
-# ==========================================
-# OTA UPDATE ENGINE
-# ==========================================
+#  OTA UPDATE ENGINE (MIGRATED TO GITHUB RELEASES API)
+# ═══════════════════════════════════════════════════════════
 APP_VERSION = "6.2.4"
-UPDATE_MANIFEST_URL = "https://gist.githubusercontent.com/2002hackerr/d3641ebf53c15562137d2178c270b909/raw/mfi_version.json"
+# Official GitHub Releases API URL for the public repository
+UPDATE_MANIFEST_URL = "https://api.github.com/repos/2002hackerr/mfi-tool-releases/releases/latest"
 
 class UpdateDialog(tk.Toplevel):
     def __init__(self, parent, remote_ver, download_url):
@@ -163,19 +163,30 @@ del "%~f0"
 def check_for_updates(parent):
     def _run():
         try:
-            # Use a short timeout to prevent startup lag
-            resp = requests.get(UPDATE_MANIFEST_URL, timeout=5)
+            # v6.2.4: Migrated to GitHub Releases API (Robust for office networks)
+            headers = {'Accept': 'application/vnd.github.v3+json'}
+            resp = requests.get(UPDATE_MANIFEST_URL, headers=headers, timeout=10)
             if resp.status_code == 200:
                 data = resp.json()
-                remote_ver = data.get("latest", "")
-                download_url = data.get("url", "")
+                # GitHub API uses "tag_name" (e.g., "v6.2.4") and "assets"
+                tag_name = data.get("tag_name", "")
                 
-                # v6.2.4 Fix: Improved version comparison logic
-                if remote_ver and remote_ver != APP_VERSION:
+                # Strip leading 'v' if present for comparison
+                remote_ver = tag_name.lstrip('v')
+                
+                # Find the download URL for the .exe asset
+                download_url = ""
+                assets = data.get("assets", [])
+                for asset in assets:
+                    if asset.get("name", "").endswith(".exe"):
+                        download_url = asset.get("browser_download_url", "")
+                        break
+                
+                if remote_ver and remote_ver != APP_VERSION and download_url:
                     # Show dialog on main thread
                     parent.after(0, lambda: UpdateDialog(parent, remote_ver, download_url))
         except:
-            pass # Silent failure for update checks
+            pass # Silent failure to prevent startup issues
     
     threading.Thread(target=_run, daemon=True).start()
 
