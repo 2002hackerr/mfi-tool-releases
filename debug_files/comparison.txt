@@ -1,0 +1,202 @@
+Tool rows: 54, Manual rows: 117
+
+Row 0:
+  TOOL:   ASIN=B012SX56OG MtcInv=Self Matching   MtcQty=2490  RecQty=2490  Rem=
+  MANUAL: ASIN=B01CP5W1ZY MtcInv=2503673903      MtcQty=68    RecQty=70    Rem=
+  -> DIFFERENCE
+Row 1:
+  TOOL:   ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  MANUAL: ASIN=B010FMNXB0 MtcInv=Self Matching   MtcQty=180   RecQty=180   Rem=
+  -> DIFFERENCE
+Row 2:
+  TOOL:   ASIN=B01CP5W1ZY MtcInv=2503673903      MtcQty=68    RecQty=70    Rem=
+  MANUAL: ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  -> DIFFERENCE
+Row 3:
+  TOOL:   ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  MANUAL: ASIN=B01CP5VXI0 MtcInv=2503678136      MtcQty=50    RecQty=55    Rem=
+  -> DIFFERENCE
+Row 4:
+  TOOL:   ASIN=B012SX56OG MtcInv=Self Matching   MtcQty=2490  RecQty=2490  Rem=
+  MANUAL: ASIN=           MtcInv=2503679395      MtcQty=5     RecQty=      Rem=
+  -> DIFFERENCE
+Row 5:
+  TOOL:   ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  MANUAL: ASIN=B0BXD6J96Q MtcInv=2503659123      MtcQty=35    RecQty=55    Rem=
+  -> DIFFERENCE
+Row 6:
+  TOOL:   ASIN=B01CP5W1ZY MtcInv=2503673903      MtcQty=68    RecQty=70    Rem=
+  MANUAL: ASIN=           MtcInv=2503673540      MtcQty=15    RecQty=      Rem=
+  -> DIFFERENCE
+Row 7:
+  TOOL:   ASIN=B010FMNXB0 MtcInv=Self Matching   MtcQty=180   RecQty=180   Rem=
+  MANUAL: ASIN=           MtcInv=2503674237      MtcQty=5     RecQty=      Rem=
+  -> DIFFERENCE
+Row 8:
+  TOOL:   ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  MANUAL: ASIN=B0BXD6J96Q MtcInv=                MtcQty=      RecQty=      Rem=35 units matched to invalid invoice 2503659123 — excluded from PQV
+  -> DIFFERENCE
+Row 9:
+  TOOL:   ASIN=B01CP5W1YK MtcInv=2503680010      MtcQty=55    RecQty=60    Rem=
+  MANUAL: ASIN=B0FDQ5XT5H MtcInv=2503645361      MtcQty=25    RecQty=30    Rem=
+  -> DIFFERENCE
+Row 10:
+  TOOL:   ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  MANUAL: ASIN=           MtcInv=2503645361      MtcQty=5     RecQty=      Rem=
+  -> DIFFERENCE
+Row 11:
+  TOOL:   ASIN=           MtcInv=2503680010      MtcQty=5     RecQty=      Rem=
+  MANUAL: ASIN=B014213X8I MtcInv=2503613962      MtcQty=35    RecQty=65    Rem=
+  -> DIFFERENCE
+Row 12:
+  TOOL:   ASIN=B0BC992MZ8 MtcInv=2503658505      MtcQty=20    RecQty=60    Rem=
+  MANUAL: ASIN=           MtcInv=2503645361      MtcQty=30    RecQty=      Rem=
+  -> DIFFERENCE
+Row 13:
+  TOOL:   ASIN=           MtcInv=2503658505      MtcQty=15    RecQty=      Rem=
+  MANUAL: ASIN=B0B9GCSVMN MtcInv=Short Received  MtcQty=20    RecQty=20    Rem=Phase 1 Direct Shortage: 35 units short received directly
+  -> DIFFERENCE
+Row 14:
+  TOOL:   ASIN=           MtcInv=2503680010      MtcQty=5     RecQty=      Rem=
+  MANUAL: ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  -> DIFFERENCE
+Row 15:
+  TOOL:   ASIN=           MtcInv=2503658505      MtcQty=5     RecQty=      Rem=
+  MANUAL: ASIN=B01CP5W1Z4 MtcInv=2503673903      MtcQty=45    RecQty=45    Rem=
+  -> DIFFERENCE
+Row 16:
+  TOOL:   ASIN=           MtcInv=2503658505      MtcQty=5     RecQty=      Rem=
+  MANUAL: ASIN=B010FMO0YY MtcInv=Short Received  MtcQty=140   RecQty=140   Rem=Phase 1 Direct Shortage: 70 units short received directly
+  -> DIFFERENCE
+Row 17:
+  TOOL:   ASIN=           MtcInv=2503658505      MtcQty=5     RecQty=      Rem=
+  MANUAL: ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  -> DIFFERENCE
+Row 18:
+  TOOL:   ASIN=           MtcInv=2503658505      MtcQty=5     RecQty=      Rem=
+  MANUAL: ASIN=B012SX6IIE MtcInv=Short Received  MtcQty=290   RecQty=290   Rem=Phase 1 Direct Shortage: 40 units short received directly
+  -> DIFFERENCE
+Row 19:
+  TOOL:   ASIN=B0FNCVF15G MtcInv=Short Received  MtcQty=5     RecQty=5     Rem=Phase 1 Direct Shortage: 20 units short received directly
+  MANUAL: ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  -> DIFFERENCE
+Row 20:
+  TOOL:   ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  MANUAL: ASIN=B01CP5VXFS MtcInv=2503679395      MtcQty=15    RecQty=15    Rem=
+  -> DIFFERENCE
+Row 21:
+  TOOL:   ASIN=B01CP5VXI0 MtcInv=2503678136      MtcQty=50    RecQty=55    Rem=
+  MANUAL: ASIN=B0BB2F1CY9 MtcInv=2503679394      MtcQty=15    RecQty=15    Rem=
+  -> DIFFERENCE
+Row 22:
+  TOOL:   ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  MANUAL: ASIN=B0C58J9Y55 MtcInv=Short Received  MtcQty=10    RecQty=10    Rem=Phase 1 Direct Shortage: 20 units short received directly
+  -> DIFFERENCE
+Row 23:
+  TOOL:   ASIN=           MtcInv=2503679395      MtcQty=5     RecQty=      Rem=
+  MANUAL: ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  -> DIFFERENCE
+Row 24:
+  TOOL:   ASIN=B0BXD6J96Q MtcInv=2503659123      MtcQty=35    RecQty=55    Rem=
+  MANUAL: ASIN=B01CP5VZK6 MtcInv=2503679395      MtcQty=15    RecQty=15    Rem=
+  -> DIFFERENCE
+Row 25:
+  TOOL:   ASIN=           MtcInv=2503673540      MtcQty=15    RecQty=      Rem=
+  MANUAL: ASIN=B01ENCFD3O MtcInv=2503657339      MtcQty=5     RecQty=5     Rem=
+  -> DIFFERENCE
+Row 26:
+  TOOL:   ASIN=           MtcInv=2503674237      MtcQty=5     RecQty=      Rem=
+  MANUAL: ASIN=B01ENCFD3O MtcInv=                MtcQty=      RecQty=      Rem=SR
+  -> DIFFERENCE
+Row 27:
+  TOOL:   ASIN=B0BXD6J96Q MtcInv=                MtcQty=      RecQty=      Rem=35 units matched to invalid invoice 2503659123 — excluded from PQV
+  MANUAL: ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  -> DIFFERENCE
+Row 28:
+  TOOL:   ASIN=B0FDQ5XT5H MtcInv=2503645361      MtcQty=25    RecQty=30    Rem=
+  MANUAL: ASIN=B012SX56OG MtcInv=2503675013      MtcQty=10    RecQty=2495  Rem=
+  -> DIFFERENCE
+Row 29:
+  TOOL:   ASIN=           MtcInv=2503645361      MtcQty=5     RecQty=      Rem=
+  MANUAL: ASIN=           MtcInv=2503675013      MtcQty=15    RecQty=      Rem=
+  -> DIFFERENCE
+Row 30:
+  TOOL:   ASIN=B014213X8I MtcInv=2503613962      MtcQty=35    RecQty=65    Rem=
+  MANUAL: ASIN=           MtcInv=2503675013      MtcQty=5     RecQty=      Rem=
+  -> DIFFERENCE
+Row 31:
+  TOOL:   ASIN=           MtcInv=2503645361      MtcQty=30    RecQty=      Rem=
+  MANUAL: ASIN=           MtcInv=2503675013      MtcQty=51    RecQty=      Rem=
+  -> DIFFERENCE
+Row 32:
+  TOOL:   ASIN=B0B9GCSVMN MtcInv=Short Received  MtcQty=20    RecQty=20    Rem=Phase 1 Direct Shortage: 35 units short received directly
+  MANUAL: ASIN=           MtcInv=2503675013      MtcQty=5     RecQty=      Rem=
+  -> DIFFERENCE
+Row 33:
+  TOOL:   ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  MANUAL: ASIN=           MtcInv=2503674251      MtcQty=100   RecQty=      Rem=
+  -> DIFFERENCE
+Row 34:
+  TOOL:   ASIN=B01CP5W1Z4 MtcInv=2503673903      MtcQty=68    RecQty=45    Rem=
+  MANUAL: ASIN=           MtcInv=2503674251      MtcQty=100   RecQty=      Rem=
+  -> DIFFERENCE
+Row 35:
+  TOOL:   ASIN=B010FMO0YY MtcInv=Short Received  MtcQty=140   RecQty=140   Rem=Phase 1 Direct Shortage: 70 units short received directly
+  MANUAL: ASIN=           MtcInv=2503702230      MtcQty=389   RecQty=      Rem=
+  -> DIFFERENCE
+Row 36:
+  TOOL:   ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  MANUAL: ASIN=           MtcInv=2503702230      MtcQty=1820  RecQty=      Rem=
+  -> DIFFERENCE
+Row 37:
+  TOOL:   ASIN=B01CP5VXIK MtcInv=2503679174      MtcQty=25    RecQty=25    Rem=
+  MANUAL: ASIN=B012SSXQGG MtcInv=2503675013      MtcQty=89    RecQty=89    Rem=
+  -> DIFFERENCE
+Row 38:
+  TOOL:   ASIN=B07XKHCJ9W MtcInv=Self Matching   MtcQty=20    RecQty=20    Rem=Not Investigated Matching Invoice
+  MANUAL: ASIN=B0DY8219MH MtcInv=                MtcQty=0     RecQty=0     Rem=
+  -> DIFFERENCE
+Row 39:
+  TOOL:   ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  MANUAL: ASIN=B012STQAAO MtcInv=2503675013      MtcQty=5     RecQty=5     Rem=
+  -> DIFFERENCE
+Row 40:
+  TOOL:   ASIN=B012SX6IIE MtcInv=Short Received  MtcQty=290   RecQty=290   Rem=Phase 1 Direct Shortage: 40 units short received directly
+  MANUAL: ASIN=B0DY82B8F4 MtcInv=                MtcQty=0     RecQty=0     Rem=
+  -> DIFFERENCE
+Row 41:
+  TOOL:   ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  MANUAL: ASIN=B07911VHLV MtcInv=2503675013      MtcQty=5     RecQty=5     Rem=
+  -> DIFFERENCE
+Row 42:
+  TOOL:   ASIN=B01CP5VZOM MtcInv=2503679395      MtcQty=15    RecQty=20    Rem=
+  MANUAL: ASIN=B0BNPQ38BT MtcInv=2503645799      MtcQty=9     RecQty=280   Rem=
+  -> DIFFERENCE
+Row 43:
+  TOOL:   ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  MANUAL: ASIN=           MtcInv=2503645799      MtcQty=3     RecQty=      Rem=
+  -> DIFFERENCE
+Row 44:
+  TOOL:   ASIN=           MtcInv=2503679395      MtcQty=5     RecQty=      Rem=Not Investigated Other Loop
+  MANUAL: ASIN=           MtcInv=2503645799      MtcQty=6     RecQty=      Rem=
+  -> DIFFERENCE
+Row 45:
+  TOOL:   ASIN=B01ENCEOBG MtcInv=                MtcQty=      RecQty=      Rem=SR
+  MANUAL: ASIN=           MtcInv=2503645799      MtcQty=3     RecQty=      Rem=
+  -> DIFFERENCE
+Row 46:
+  TOOL:   ASIN=ASIN       MtcInv=Mtc Inv         MtcQty=Mtc Qty RecQty=Rec Qty Rem=Remarks
+  MANUAL: ASIN=           MtcInv=2503645799      MtcQty=9     RecQty=      Rem=
+  -> DIFFERENCE
+Row 47:
+  TOOL:   ASIN=B01CP5VXFS MtcInv=2503679395      MtcQty=15    RecQty=15    Rem=
+  MANUAL: ASIN=           MtcInv=2503645799      MtcQty=10    RecQty=      Rem=
+  -> DIFFERENCE
+Row 48:
+  TOOL:   ASIN=B0BB2F1CY9 MtcInv=2503679394      MtcQty=15    RecQty=15    Rem=
+  MANUAL: ASIN=           MtcInv=2503645799      MtcQty=9     RecQty=      Rem=
+  -> DIFFERENCE
+Row 49:
+  TOOL:   ASIN=B0C58J9Y55 MtcInv=Short Received  MtcQty=10    RecQty=10    Rem=Phase 1 Direct Shortage: 20 units short received directly
+  MANUAL: ASIN=           MtcInv=2503645799      MtcQty=1     RecQty=      Rem=
+  -> DIFFERENCE

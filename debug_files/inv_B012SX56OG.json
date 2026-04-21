@@ -1,0 +1,632 @@
+[
+  {
+    "invoice": "2503130427",
+    "qty": "165",
+    "po": "8NCU92YG",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503133494",
+    "qty": "95",
+    "po": "6W48YHHX",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503155790",
+    "qty": "345",
+    "po": "7G5S12HC",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503102672",
+    "qty": "155",
+    "po": "4SL6ILRU",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403668365",
+    "qty": "205",
+    "po": "82RQROWW",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503490809",
+    "qty": "355",
+    "po": "1J5R2D3J",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503315590SCR",
+    "qty": "1",
+    "po": NaN,
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503052713",
+    "qty": "110",
+    "po": "8X7IE85X",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403605401",
+    "qty": "20",
+    "po": NaN,
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503475737SCR",
+    "qty": "3",
+    "po": "8R6Q8R8D",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503639179",
+    "qty": "430",
+    "po": "7GTA6Q2O,7GTA6Q2O,6IFAQIOJ,6IFAQIOJ,7RFGZ3HR,6IFAQIOJ,6IFAQIOJ,7GTA6Q2O",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503315590",
+    "qty": "385",
+    "po": "1V53BUED,78COO2XH,4U1J2R8T,1V53BUED,8UEBWNVI,8UEBWNVI,78COO2XH,8UEBWNVI,78COO2XH,5Q5LQ68N,6PSXY2RU,78COO2XH,12JGVF9B,1V53BUED,78COO2XH,78COO2XH,5Q5LQ68N,87M3VOSC,78COO2XH,78COO2XH,78COO2XH,8D6BBVHU,8D6BBVHU,1V53BUED,7CTPWWWC,4U1J2R8T,1V53BUED,8UEBWNVI,8UEBWNVI,6PSXY2RU,8D6BBVHU,8UEBWNVI,5RIROWER,5Q5LQ68N,6PSXY2RU,4U1J2R8T,1V53BUED,78COO2XH,78COO2XH,7CTPWWWC,1V53BUED,1V53BUED,1V53BUED,78COO2XH,78COO2XH,1V53BUED,1V53BUED",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503298640",
+    "qty": "410",
+    "po": "87M3VOSC,7QB4LF6Y,8UEBWNVI,5RIROWER,8UEBWNVI",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "DUMMY_4CZ6HKLU_20250508012110",
+    "qty": "1",
+    "po": "4CZ6HKLU",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503254865",
+    "qty": "50",
+    "po": "1B8JQKUA,1B8JQKUA,59CKYJAJ",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503202291",
+    "qty": "650",
+    "po": "8G9WISXD",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503674237",
+    "qty": "225",
+    "po": "2WTJXTFT,5T8CPOKY,5NY5XYFW,5NY5XYFW,3R8ZTVKB,5NY5XYFW,5NY5XYFW,5T8CPOKY",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "64N3MSHE-5921930004985-20250823-cbb50309",
+    "qty": "303",
+    "po": "64N3MSHE",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503388029",
+    "qty": "550",
+    "po": "8EB6SSYG,8EB6SSYG",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503463809",
+    "qty": "535",
+    "po": "8BC2XODM",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403675491",
+    "qty": "285",
+    "po": "3YS4VCAN",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503207437",
+    "qty": "5",
+    "po": "2FWF6CUS",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503491017",
+    "qty": "50",
+    "po": "4T4SYCJM",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503195596",
+    "qty": "480",
+    "po": "6G5YSETB",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503293937",
+    "qty": "225",
+    "po": "6PSXY2RU,1M8SWVRL",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503519985",
+    "qty": "130",
+    "po": "3KXO9JAE",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503491142",
+    "qty": "100",
+    "po": "54X52GLL",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503627034",
+    "qty": "400",
+    "po": "8G1RRWWI",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503415807",
+    "qty": "1285",
+    "po": "8RI2EWOD,7CPAWQAM",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503205114",
+    "qty": "20",
+    "po": "2FWF6CUS,2FWF6CUS",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503651044",
+    "qty": "425",
+    "po": "2WCIYEQA",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503535588",
+    "qty": "345",
+    "po": "1S1JEH8K,13BCDRVB",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503665974",
+    "qty": "375",
+    "po": "5NY5XYFW,5NY5XYFW,3R8ZTVKB,3R8ZTVKB,3R8ZTVKB,3R8ZTVKB,3R8ZTVKB,3R8ZTVKB,3R8ZTVKB,5NY5XYFW,5NY5XYFW,3R8ZTVKB,3R8ZTVKB,3R8ZTVKB,6IFAQIOJ,3R8ZTVKB",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503680905",
+    "qty": "45",
+    "po": "29NNT8NO,29NNT8NO,3R8ZTVKB",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403665906",
+    "qty": "30",
+    "po": "58BB4LZR",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403690785",
+    "qty": "70",
+    "po": "384QY7WQ",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503382695",
+    "qty": "385",
+    "po": "1AV4CDYR,1AV4CDYR",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503091301",
+    "qty": "60",
+    "po": "11XZIXSV",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503171648",
+    "qty": "1420",
+    "po": "3Z4WDFSP",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503274158",
+    "qty": "305",
+    "po": NaN,
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503388031",
+    "qty": "550",
+    "po": "8UHSMWXI,8UHSMWXI",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403609818",
+    "qty": "185",
+    "po": "8JGPYYKK",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503142053",
+    "qty": "220",
+    "po": "6TL617XJ",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503297210",
+    "qty": "80",
+    "po": "5Q5LQ68N,2JNLRV4K,4U1J2R8T,5Q5LQ68N,8UEBWNVI,7CTPWWWC",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503162942",
+    "qty": "50",
+    "po": "2NR1HR8N",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503032505",
+    "qty": "120",
+    "po": "3HAA81BN",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503659087",
+    "qty": "45",
+    "po": "7GTA6Q2O",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503520223",
+    "qty": "205",
+    "po": "3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,8I17688S,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403696615",
+    "qty": "130",
+    "po": "7GSORBXG",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503613898",
+    "qty": "140",
+    "po": "45WYSAIV,1W242D8C",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503694101",
+    "qty": "430",
+    "po": "7WAMPAZM,2WTJXTFT",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503605487",
+    "qty": "250",
+    "po": "32YLGUVC",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403674959",
+    "qty": "295",
+    "po": "4HUU6PNA",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503233291",
+    "qty": "580",
+    "po": "1B8JQKUA",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503716432",
+    "qty": "700",
+    "po": NaN,
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503674657",
+    "qty": "195",
+    "po": "1Z8BD9WU,2LF87DTE",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503243726",
+    "qty": "495",
+    "po": "8OK56YRO,8OK56YRO",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503073281",
+    "qty": "155",
+    "po": "612VNM8C",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503491147",
+    "qty": "100",
+    "po": "29KV976U",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503004336",
+    "qty": "1080",
+    "po": "8DVVLJDM,715IKSRS,8DVVLJDM,8DVVLJDM",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503546209",
+    "qty": "105",
+    "po": "8DUCKPNO",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503546209",
+    "qty": "105",
+    "po": "8DUCKPNO",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503702230",
+    "qty": "2505",
+    "po": "2WTJXTFT",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503216813",
+    "qty": "660",
+    "po": "8YY9XKSV",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403668664",
+    "qty": "200",
+    "po": "8ZNVK7MU",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403688820SCR",
+    "qty": "2",
+    "po": "3JJXFMWH,715IKSRS",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503475737",
+    "qty": "505",
+    "po": "8HFTAVYU,7KGNSCCB,7KGNSCCB,7KGNSCCB,7KGNSCCB,54X52GLL,54X52GLL,7KGNSCCB,7KGNSCCB,4YLXQF6O,7KGNSCCB,7KGNSCCB,7KGNSCCB,7KGNSCCB,7KGNSCCB,7KGNSCCB",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503415906",
+    "qty": "1285",
+    "po": "5K98QDPQ",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503506663",
+    "qty": "95",
+    "po": "8R6Q8R8D,2DNW66MT",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503385852",
+    "qty": "165",
+    "po": "1AV4CDYR",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503081568",
+    "qty": "45",
+    "po": "7PTWRH1J",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503546209SCR",
+    "qty": "15",
+    "po": NaN,
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403706436",
+    "qty": "990",
+    "po": "715IKSRS",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403623762",
+    "qty": "10",
+    "po": "6O42VLIJ",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503066192",
+    "qty": "175",
+    "po": "74DN4XSM",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503260534",
+    "qty": "390",
+    "po": "2EA3MYGP",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503382592",
+    "qty": "550",
+    "po": "4PWXKX3Y",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403668744",
+    "qty": "30",
+    "po": "538Y5M8N",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403605401SCR",
+    "qty": "20",
+    "po": "3Q2QOMSB",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403717343",
+    "qty": "1500",
+    "po": "7XU3IS6W",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503150478",
+    "qty": "630",
+    "po": "1MWAXWDU,6W48YHHX,1MWAXWDU",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503172322",
+    "qty": "550",
+    "po": "6W48YHHX,33615GVA",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2403688820",
+    "qty": "70",
+    "po": "6MZUJZDP",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503506573",
+    "qty": "205",
+    "po": "13BCDRVB",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503063145",
+    "qty": "155",
+    "po": "11Q1WAUM",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503111321",
+    "qty": "35",
+    "po": "5ULXKJOT",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503315590",
+    "qty": "385",
+    "po": "8UEBWNVI,4U1J2R8T,78COO2XH,8D6BBVHU,78COO2XH,1V53BUED,1V53BUED,78COO2XH,1V53BUED,6PSXY2RU,4U1J2R8T,78COO2XH,1V53BUED,1V53BUED,12JGVF9B,6PSXY2RU,78COO2XH,1V53BUED,8UEBWNVI,78COO2XH,1V53BUED,78COO2XH,4U1J2R8T,8UEBWNVI,5Q5LQ68N,8UEBWNVI,7CTPWWWC,1V53BUED,87M3VOSC,1V53BUED,78COO2XH,78COO2XH,5Q5LQ68N,78COO2XH,78COO2XH,78COO2XH,7CTPWWWC,1V53BUED,8D6BBVHU,8UEBWNVI,8D6BBVHU,78COO2XH,5Q5LQ68N,1V53BUED,6PSXY2RU,8UEBWNVI,5RIROWER",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503639179",
+    "qty": "430",
+    "po": "7GTA6Q2O,7GTA6Q2O,6IFAQIOJ,7GTA6Q2O,7RFGZ3HR,6IFAQIOJ,6IFAQIOJ,6IFAQIOJ",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503298640",
+    "qty": "410",
+    "po": "87M3VOSC,5RIROWER,8UEBWNVI,7QB4LF6Y,8UEBWNVI",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503254865",
+    "qty": "50",
+    "po": "59CKYJAJ,1B8JQKUA,1B8JQKUA",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503674237",
+    "qty": "225",
+    "po": "3R8ZTVKB,5NY5XYFW,2WTJXTFT,5NY5XYFW,5T8CPOKY,5T8CPOKY,5NY5XYFW,5NY5XYFW",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503535588",
+    "qty": "345",
+    "po": "13BCDRVB,1S1JEH8K",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503665974",
+    "qty": "375",
+    "po": "3R8ZTVKB,3R8ZTVKB,5NY5XYFW,3R8ZTVKB,3R8ZTVKB,3R8ZTVKB,3R8ZTVKB,3R8ZTVKB,3R8ZTVKB,5NY5XYFW,6IFAQIOJ,3R8ZTVKB,3R8ZTVKB,5NY5XYFW,5NY5XYFW,3R8ZTVKB",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503680905",
+    "qty": "45",
+    "po": "3R8ZTVKB,29NNT8NO,29NNT8NO",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503297210",
+    "qty": "80",
+    "po": "5Q5LQ68N,8UEBWNVI,5Q5LQ68N,4U1J2R8T,2JNLRV4K,7CTPWWWC",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503520223",
+    "qty": "205",
+    "po": "3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,8I17688S,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU,3GH6BNDU",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503694101",
+    "qty": "430",
+    "po": "7B9ZXO6U,7B9ZXO6U,3UZRU9GB,372MBSSH,3UZRU9GB,372MBSSH,3UZRU9GB,7B9ZXO6U,7B9ZXO6U,7B9ZXO6U,3UZRU9GB,7B9ZXO6U,3UZRU9GB,7B9ZXO6U,372MBSSH,7B9ZXO6U,7B9ZXO6U,3UZRU9GB,372MBSSH,7B9ZXO6U,7B9ZXO6U,3UZRU9GB,372MBSSH,7WAMPAZM,372MBSSH,7B9ZXO6U,2WTJXTFT,7B9ZXO6U,7B9ZXO6U,372MBSSH,7B9ZXO6U,3UZRU9GB,3UZRU9GB,7B9ZXO6U,7B9ZXO6U,7B9ZXO6U,7B9ZXO6U,7B9ZXO6U",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503674657",
+    "qty": "195",
+    "po": "2LF87DTE,1Z8BD9WU",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503674657",
+    "qty": "195",
+    "po": "2LF87DTE,1Z8BD9WU",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503716432",
+    "qty": "700",
+    "po": "3UZRU9GB",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503004336",
+    "qty": "1080",
+    "po": "8DVVLJDM,8DVVLJDM,8DVVLJDM,715IKSRS",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503475737",
+    "qty": "505",
+    "po": "4YLXQF6O,7KGNSCCB,7KGNSCCB,7KGNSCCB,7KGNSCCB,7KGNSCCB,7KGNSCCB,7KGNSCCB,7KGNSCCB,7KGNSCCB,54X52GLL,7KGNSCCB,8HFTAVYU,54X52GLL,7KGNSCCB,7KGNSCCB",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503506663",
+    "qty": "95",
+    "po": "2DNW66MT,8R6Q8R8D",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503150478",
+    "qty": "630",
+    "po": "6W48YHHX,1MWAXWDU,1MWAXWDU",
+    "asin": "B012SX56OG"
+  },
+  {
+    "invoice": "2503172322",
+    "qty": "550",
+    "po": "33615GVA,6W48YHHX",
+    "asin": "B012SX56OG"
+  }
+]

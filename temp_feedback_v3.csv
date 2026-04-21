@@ -1,0 +1,14 @@
+Barcode,Inv no,SID,PO,ASIN,Inv Qty,Rec Qty,Mtc Qty,Mtc Inv,Mtc ASIN,Mtc PO,Remarks,Date,CP
+30001163952435,9527199585SCR,5554767014973.0,2B8F4FRU,B0BHHY75T6,180.0,84.0,84.0,9527199585,B0BHHY75T6,2B8F4FRU,Inv Qty:180.Received Qty:84- Shortage of 96 Units,2026-02-13 17:53:28,"Within 10% CP | Claiming CP: 405.16, Matched CP: 405.16 (range: 364.64–445.68)"
+,,5554767014973.0,5OKZLD5W,B0BHHY75T6,,96.0,68.0,9527200210,B0BHHY75T6,5OKZLD5W,,2026-02-13 16:47:22,"Within 10% CP | Parent ASIN CP: 405.16, Sub-Matched CP: 405.16 (range: 364.64–445.68)"
+,,,,,,,28.0,9527197933SCR,B0022H79MG,82GKXDNK,,,Parent ASIN CP: 405.16 | Sub-Matched CP: N/A
+30001163953579,9527200210,5609086014973.0,5OKZLD5W,B0BHHY75T6,68.0,68.0,38.0,9527185027SCRSCRSCR,B08PQ6VWPT,8OMF6YFQ,,2026-02-14 10:14:40,"Within 10% CP | Parent ASIN CP: 405.16, Sub-Matched CP: 391.90 (range: 364.64–445.68)"
+,,,,,,,18.0,9527194660SCR,B0C81G1K5W,3CPT337S,,,"Within 10% CP | Parent ASIN CP: 405.16, Sub-Matched CP: 396.93 (range: 364.64–445.68)"
+,,,,,,,12.0,9527188912SCR,B09L7YNK87,4S9L6GZG,,,"Within 10% CP | Parent ASIN CP: 405.16, Sub-Matched CP: 379.89 (range: 364.64–445.68)"
+30001163904809,9527185027SCRSCRSCR,5423605014973.0,8OMF6YFQ,B08PQ6VWPT,600.0,600.0,264.0,9527180297,B08PQ6VWPT,6DTSHSLA,,2026-01-18 21:40:27,"Within 10% CP | Parent ASIN CP: 391.90, Sub-Matched CP: 391.90 (range: 352.71–431.09)"
+,,,,,,,336.0,9527176648,B00649B4EM,2OMLLHMK,,,"Within 10% CP | Parent ASIN CP: 391.90, Sub-Matched CP: 416.31 (range: 352.71–431.09)"
+30001162332702,9527176648,5363140014973.0,2OMLLHMK,B00649B4EM,2532.0,1448.0,1448.0,Self Matching,,,Inv Qty:2532.Received Qty:1448- Shortage of 1084 Units,2026-01-06 09:24:32,
+,,,,,,,1448.0,9527176648,B00649B4EM,2OMLLHMK,,,"Within 10% CP | Parent ASIN CP: 416.31, Sub-Matched CP: 416.31 (range: 374.68–457.94)"
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+So let me confirm you once again If you cheque In this current Sheet There is no remark you have added for cross view detection Like neither you added anywhere cross view has been detected So at least Cheque what causing this issue And once you fix it Let me know so that I will cheque and we will go further with Like compilation of Ok got it what I am trying to say ,,,,,,,,,,,,,

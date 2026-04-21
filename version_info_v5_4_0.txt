@@ -1,0 +1,27 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(5, 4, 0, 0),
+    prodvers=(5, 4, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+    ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        u'040904B0',
+        [StringStruct(u'CompanyName', u'Mukesh Maruthi'),
+        StringStruct(u'FileDescription', u'ROW IB Investigation Tool'),
+        StringStruct(u'FileVersion', u'5.4.0'),
+        StringStruct(u'LegalCopyright', u'© Mukesh Maruthi. All rights reserved.'),
+        StringStruct(u'OriginalFilename', u'Row_IB_Investigation_Tool_v5.4.0.exe'),
+        StringStruct(u'ProductName', u'ROW IB Investigation Tool'),
+        StringStruct(u'ProductVersion', u'5.4.0')])
+      ]), 
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+  ]
+)

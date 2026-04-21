@@ -1,0 +1,33 @@
+Barcode,Inv no,SID,PO,ASIN,Inv Qty,Rec Qty,Mtc Qty,Mtc Inv,Mtc ASIN,Mtc PO,Remarks,Date,CP
+30001163952435,9527199585SCR,5554767014973,2B8F4FRU,B0BHHY75T6,180,84,84,9527199585,B0BHHY75T6,2B8F4FRU,Inv Qty:180.Received Qty:84- Shortage of 96 Units,2026-02-13 17:53:28,"Within 10% CP | Claiming CP: 405.16, Matched CP: 405.16 (range: 364.64–445.68)"
+Need Cross PO -  Detected,,5554767014973,5OKZLD5W,B0BHHY75T6,,96,68,9527200210,B0BHHY75T6,5OKZLD5W,,2026-02-13 16:47:22,"Within 10% CP | Parent ASIN CP: 405.16, Sub-Matched CP: 405.16 (range: 364.64–445.68)"
+,,,,,,,28,9527197933SCR,B0022H79MG,82GKXDNK,,,Parent ASIN CP: 405.16 | Sub-Matched CP: N/A
+30001163953579,9527200210,5609086014973,5OKZLD5W,B0BHHY75T6,68,68,38,9527185027SCRSCRSCR,B08PQ6VWPT,8OMF6YFQ,,2026-02-14 10:14:40,"Within 10% CP | Parent ASIN CP: 405.16, Sub-Matched CP: 391.90 (range: 364.64–445.68)"
+,,,,,,,18,9527194660SCR,B0C81G1K5W,3CPT337S,,,"Within 10% CP | Parent ASIN CP: 405.16, Sub-Matched CP: 396.93 (range: 364.64–445.68)"
+,,,,,,,12,9527188912SCR,B09L7YNK87,4S9L6GZG,,,"Within 10% CP | Parent ASIN CP: 405.16, Sub-Matched CP: 379.89 (range: 364.64–445.68)"
+30001163904809,9527185027SCRSCRSCR,5423605014973,8OMF6YFQ,B08PQ6VWPT,600,600,264,9527180297,B08PQ6VWPT,6DTSHSLA,,2026-01-18 21:40:27,"Within 10% CP | Parent ASIN CP: 391.90, Sub-Matched CP: 391.90 (range: 352.71–431.09)"
+,,,,,,,336,9527176648,B00649B4EM,2OMLLHMK,,,"Within 10% CP | Parent ASIN CP: 391.90, Sub-Matched CP: 416.31 (range: 352.71–431.09)"
+30001162332702,9527176648,5363140014973,2OMLLHMK,B00649B4EM,2532,1448,1448,Self Matching,,,Inv Qty:2532.Received Qty:1448- Shortage of 1084 Units,2026-01-06 09:24:32,
+,,,,,,,1448,9527176648,B00649B4EM,2OMLLHMK,,,"Within 10% CP | Parent ASIN CP: 416.31, Sub-Matched CP: 416.31 (range: 374.68–457.94)"
+30001163992950,9527197933SCR,5572535014973,82GKXDNK,B0022H79MG,264,,,,,,Inv Qty:264.Received Qty:0- Shortage of 264 Units,,
+,9527197930,5572535014973,8LIQDOPL,B0022H79MG,504,768,504,9527197930,B0022H79MG,8LIQDOPL,,2026-02-10 01:10:53,"Within 10% CP | Parent ASIN CP: 369.39, Sub-Matched CP: 369.39 (range: 332.45–406.33)"
+,,,,,,,252,9527185027SCRSCR,B08PQ6VWPT,8OMF6YFQ,,,"Within 10% CP | Parent ASIN CP: 369.39, Sub-Matched CP: 391.90 (range: 332.45–406.33)"
+,,,,,,,12,9527184659SCRSCR,B0BTSKRQGR,4DGICL5Q,,,"Within 10% CP | Parent ASIN CP: 369.39, Sub-Matched CP: 387.12 (range: 332.45–406.33)"
+30001163904809,9527185027SCRSCR,5423605014973,8OMF6YFQ,B08PQ6VWPT,600,600,336,9527176648,B00649B4EM,2OMLLHMK,,2026-01-18 21:40:27,"Within 10% CP | Parent ASIN CP: 391.90, Sub-Matched CP: 416.31 (range: 352.71–431.09)"
+,,,,,,,264,9527180297,B08PQ6VWPT,6DTSHSLA,,,"Within 10% CP | Parent ASIN CP: 391.90, Sub-Matched CP: 391.90 (range: 352.71–431.09)"
+30001162332702,9527176648,5363140014973,2OMLLHMK,B00649B4EM,2532,1448,1448,Self Matching,,,Inv Qty:2532.Received Qty:1448- Shortage of 1084 Units,2026-01-06 09:24:32,
+,,,,,,,1448,9527176648,B00649B4EM,2OMLLHMK,,,"Within 10% CP | Parent ASIN CP: 416.31, Sub-Matched CP: 416.31 (range: 374.68–457.94)"
+30001162209332,9527194660SCR,5485770014973,3CPT337S,B0C81G1K5W,18,18,18,9527185196SCR,B09KHFWNBF,6JQZH6KN,,2026-02-04 00:04:52,"Within 10% CP | Parent ASIN CP: 396.93, Sub-Matched CP: 368.68 (range: 357.24–436.62)"
+30001163904793,9527185196SCR,5448401014973,6JQZH6KN,B09KHFWNBF,672,636,635,9527185196,B09KHFWNBF,6JQZH6KN,Inv Qty:672.Received Qty:636- Shortage of 36 Units (Edit Confirmed),2026-01-19 04:55:41,"Within 10% CP | Parent ASIN CP: 368.68, Sub-Matched CP: 368.68 (range: 331.81–405.55)"
+30001162180440,9527188912SCR,5470419014973,4S9L6GZG,B09L7YNK87,72,72,58,9527188912,B09L7YNK87,4S9L6GZG,,2026-01-24 08:40:54,"Within 10% CP | Parent ASIN CP: 379.89, Sub-Matched CP: 379.89 (range: 341.90–417.88)"
+,,,,,,,14,9527175355SCR,B0C81GG8N6,6YZWUP6H,,,"Within 10% CP | Parent ASIN CP: 379.89, Sub-Matched CP: 396.93 (range: 341.90–417.88)"
+,,,,,,,14,9527175355SCR,B0C81GG8N6,6YZWUP6H,,,"Within 10% CP | Parent ASIN CP: 379.89, Sub-Matched CP: 396.93 (range: 341.90–417.88)"
+30001162287699,9527188912,5361556014973,4S9L6GZG,B09L7YNK87,72,,,,,,Inv Qty:72.Received Qty:0- Shortage of 72 Units,,
+30001162287699,9527175355SCR,5361556014973,6YZWUP6H,B0C81GG8N6,18,18,18,9527165094SCR,B09Z6TJP7Y,6WO2PMDD,,2026-01-02 21:57:22,"Within 10% CP | Parent ASIN CP: 396.93, Sub-Matched CP: 422.65 (range: 357.24–436.62)"
+30001168663404,9527165094SCR,5225712014973,6WO2PMDD,B09Z6TJP7Y,2760,2492,2492,9527165094,B09Z6TJP7Y,6WO2PMDD,Inv Qty:2760.Received Qty:2492- Shortage of 268 Units (Edit Confirmed),2025-12-19 12:45:42,"Within 10% CP | Parent ASIN CP: 422.65, Sub-Matched CP: 422.65 (range: 380.38–464.92)"
+,,,,,,,,,,,,,
+Barcode,Inv no,SID,PO,ASIN,Inv Qty,Rec Qty,Mtc Qty,Mtc Inv,Mtc ASIN,Mtc PO,Remarks,Date,CP
+30001163952435,9527199585SCR,5554767014973,2B8F4FRU,B0DPX93PJ9,560,56,56,9527199585,B0DPX93PJ9,2B8F4FRU,Inv Qty:560.Received Qty:56- Shortage of 504 Units,2026-02-13 18:06:06,"Within 10% CP | Claiming CP: 556.21, Matched CP: 556.21 (range: 500.59–611.83)"
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+1- Improvement,  The improvement that I want is like Let now everything is fine like it is detecting a cross view overages And it is investigating each and every loop correctly Like every feature that I requested you is working everything properly but except two changes I want Like when it is detecting cross po Okay it would be better to add A Remark in remark like Cross PO detected that is So We will come to know this is Cross VO got it That is fine nothing else to be done Got it like it will make easier Like if we highlight that cross view that one row like wherever it is deducting cross po Just either adding remarks stating cross view detected That's one statement is enough which makes everything clear And the other second improvement what I want is like Still in a unique summary I am not able to find the complete data Let complete all the unique entries Of Investigation sheet ok So for that if you want I will give you Logic behind that if you confirm so that you can Use to pull a unique entries in our from our investigation got it ,,,,,,,,,,,,

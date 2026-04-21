@@ -1,0 +1,399 @@
+--- ASIN B01CP5W1ZY ---
+TOOL:
+  T-0-0: SubInv=2503673903      Rec=70    Mtc=68    Rem=
+  T-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+  T-1-0: SubInv=2503673903      Rec=70    Mtc=68    Rem=
+MANUAL:
+  M-0-0: SubInv=2503673903      Rec=70    Mtc=68    Rem=
+
+--- ASIN B010FMNXB0 ---
+TOOL:
+  T-0-0: SubInv=Self Matching   Rec=180   Mtc=180   Rem=
+  T-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+MANUAL:
+  M-0-0: SubInv=Self Matching   Rec=180   Mtc=180   Rem=
+  M-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+
+--- ASIN B01CP5VXI0 ---
+TOOL:
+  T-0-0: SubInv=2503678136      Rec=55    Mtc=50    Rem=
+  T-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+  T-0-2: SubInv=2503679395      Rec=      Mtc=5     Rem=
+MANUAL:
+  M-0-0: SubInv=2503678136      Rec=55    Mtc=50    Rem=
+  M-0-1: SubInv=2503679395      Rec=      Mtc=5     Rem=
+
+--- ASIN B0BXD6J96Q ---
+TOOL:
+  T-0-0: SubInv=2503659123      Rec=55    Mtc=35    Rem=
+  T-0-1: SubInv=2503673540      Rec=      Mtc=15    Rem=
+  T-0-2: SubInv=2503674237      Rec=      Mtc=5     Rem=
+  T-1-0: SubInv=                Rec=      Mtc=      Rem=35 units matched to invalid invoice 2503659123 — excluded from PQV
+MANUAL:
+  M-0-0: SubInv=2503659123      Rec=55    Mtc=35    Rem=
+  M-0-1: SubInv=2503673540      Rec=      Mtc=15    Rem=
+  M-0-2: SubInv=2503674237      Rec=      Mtc=5     Rem=
+  M-1-0: SubInv=                Rec=      Mtc=      Rem=35 units matched to invalid invoice 2503659123 — excluded from PQV
+
+--- ASIN B0FDQ5XT5H ---
+TOOL:
+  T-0-0: SubInv=2503645361      Rec=30    Mtc=25    Rem=
+  T-0-1: SubInv=2503645361      Rec=      Mtc=5     Rem=
+MANUAL:
+  M-0-0: SubInv=2503645361      Rec=30    Mtc=25    Rem=
+  M-0-1: SubInv=2503645361      Rec=      Mtc=5     Rem=
+
+--- ASIN B014213X8I ---
+TOOL:
+  T-0-0: SubInv=2503613962      Rec=65    Mtc=35    Rem=
+  T-0-1: SubInv=2503645361      Rec=      Mtc=30    Rem=
+MANUAL:
+  M-0-0: SubInv=2503613962      Rec=65    Mtc=35    Rem=
+  M-0-1: SubInv=2503645361      Rec=      Mtc=30    Rem=
+
+--- ASIN B0B9GCSVMN ---
+TOOL:
+  T-0-0: SubInv=Short Received  Rec=20    Mtc=20    Rem=Phase 1 Direct Shortage: 35 units short received directly
+  T-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+MANUAL:
+  M-0-0: SubInv=Short Received  Rec=20    Mtc=20    Rem=Phase 1 Direct Shortage: 35 units short received directly
+  M-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+
+--- ASIN B01CP5W1Z4 ---
+TOOL:
+  T-0-0: SubInv=2503673903      Rec=45    Mtc=68    Rem=
+MANUAL:
+  M-0-0: SubInv=2503673903      Rec=45    Mtc=45    Rem=
+
+--- ASIN B010FMO0YY ---
+TOOL:
+  T-0-0: SubInv=Short Received  Rec=140   Mtc=140   Rem=Phase 1 Direct Shortage: 70 units short received directly
+  T-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+MANUAL:
+  M-0-0: SubInv=Short Received  Rec=140   Mtc=140   Rem=Phase 1 Direct Shortage: 70 units short received directly
+  M-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+
+--- ASIN B012SX6IIE ---
+TOOL:
+  T-0-0: SubInv=Short Received  Rec=290   Mtc=290   Rem=Phase 1 Direct Shortage: 40 units short received directly
+  T-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+MANUAL:
+  M-0-0: SubInv=Short Received  Rec=290   Mtc=290   Rem=Phase 1 Direct Shortage: 40 units short received directly
+  M-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+
+--- ASIN B01CP5VXFS ---
+TOOL:
+  T-0-0: SubInv=2503679395      Rec=15    Mtc=15    Rem=
+MANUAL:
+  M-0-0: SubInv=2503679395      Rec=15    Mtc=15    Rem=
+
+--- ASIN B0BB2F1CY9 ---
+TOOL:
+  T-0-0: SubInv=2503679394      Rec=15    Mtc=15    Rem=
+MANUAL:
+  M-0-0: SubInv=2503679394      Rec=15    Mtc=15    Rem=
+
+--- ASIN B0C58J9Y55 ---
+TOOL:
+  T-0-0: SubInv=Short Received  Rec=10    Mtc=10    Rem=Phase 1 Direct Shortage: 20 units short received directly
+  T-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+MANUAL:
+  M-0-0: SubInv=Short Received  Rec=10    Mtc=10    Rem=Phase 1 Direct Shortage: 20 units short received directly
+  M-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+
+--- ASIN B01CP5VZK6 ---
+TOOL:
+  T-0-0: SubInv=2503679395      Rec=15    Mtc=15    Rem=
+MANUAL:
+  M-0-0: SubInv=2503679395      Rec=15    Mtc=15    Rem=
+
+--- ASIN B01ENCFD3O ---
+TOOL:
+  T-0-0: SubInv=2503657339      Rec=5     Mtc=5     Rem=
+  T-1-0: SubInv=                Rec=      Mtc=      Rem=SR
+MANUAL:
+  M-0-0: SubInv=2503657339      Rec=5     Mtc=5     Rem=
+  M-1-0: SubInv=                Rec=      Mtc=      Rem=SR
+  M-1-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+
+--- ASIN B012SX56OG ---
+TOOL:
+  T-0-0: SubInv=Self Matching   Rec=2490  Mtc=2490  Rem=
+  T-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+  T-1-0: SubInv=Self Matching   Rec=2490  Mtc=2490  Rem=
+  T-1-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+MANUAL:
+  M-0-0: SubInv=2503675013      Rec=2495  Mtc=10    Rem=
+  M-0-1: SubInv=2503675013      Rec=      Mtc=15    Rem=
+  M-0-2: SubInv=2503675013      Rec=      Mtc=5     Rem=
+  M-0-3: SubInv=2503675013      Rec=      Mtc=51    Rem=
+  M-0-4: SubInv=2503675013      Rec=      Mtc=5     Rem=
+  M-0-5: SubInv=2503674251      Rec=      Mtc=100   Rem=
+  M-0-6: SubInv=2503674251      Rec=      Mtc=100   Rem=
+  M-0-7: SubInv=2503702230      Rec=      Mtc=389   Rem=
+  M-0-8: SubInv=2503702230      Rec=      Mtc=1820  Rem=
+
+--- ASIN B012SSXQGG ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503675013      Rec=89    Mtc=89    Rem=
+
+--- ASIN B0DY8219MH ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=                Rec=0     Mtc=0     Rem=
+
+--- ASIN B012STQAAO ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503675013      Rec=5     Mtc=5     Rem=
+
+--- ASIN B0DY82B8F4 ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=                Rec=0     Mtc=0     Rem=
+
+--- ASIN B07911VHLV ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503675013      Rec=5     Mtc=5     Rem=
+
+--- ASIN B0BNPQ38BT ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503645799      Rec=280   Mtc=9     Rem=
+  M-0-1: SubInv=2503645799      Rec=      Mtc=3     Rem=
+  M-0-2: SubInv=2503645799      Rec=      Mtc=6     Rem=
+  M-0-3: SubInv=2503645799      Rec=      Mtc=3     Rem=
+  M-0-4: SubInv=2503645799      Rec=      Mtc=9     Rem=
+  M-0-5: SubInv=2503645799      Rec=      Mtc=10    Rem=
+  M-0-6: SubInv=2503645799      Rec=      Mtc=9     Rem=
+  M-0-7: SubInv=2503645799      Rec=      Mtc=1     Rem=
+  M-0-8: SubInv=2503645799      Rec=      Mtc=6     Rem=
+  M-0-9: SubInv=2503645799      Rec=      Mtc=9     Rem=
+  M-0-10: SubInv=2503645799      Rec=      Mtc=3     Rem=
+  M-0-11: SubInv=2503645799      Rec=      Mtc=5     Rem=
+  M-0-12: SubInv=2503645799      Rec=      Mtc=6     Rem=
+  M-0-13: SubInv=2503645799      Rec=      Mtc=6     Rem=
+  M-0-14: SubInv=2503645799      Rec=      Mtc=9     Rem=
+  M-0-15: SubInv=2503645799      Rec=      Mtc=6     Rem=
+  M-0-16: SubInv=2503674251      Rec=      Mtc=180   Rem=
+  M-1-0: SubInv=No match found  Rec=0     Mtc=      Rem=
+
+--- ASIN B0F5GL4469 ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=No match found  Rec=0     Mtc=      Rem=
+
+--- ASIN B0F1Y2Z2XP ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=No match found  Rec=0     Mtc=      Rem=
+
+--- ASIN B0F5GN2G38 ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=No match found  Rec=0     Mtc=      Rem=
+
+--- ASIN B0F1Y27XQ5 ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503645799      Rec=6     Mtc=6     Rem=
+
+--- ASIN B0F1Y9VG35 ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503645799      Rec=9     Mtc=9     Rem=
+
+--- ASIN B0F5GJVKWN ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503645799      Rec=24    Mtc=24    Rem=
+
+--- ASIN B0F5GK9LP5 ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503645799      Rec=3     Mtc=3     Rem=
+
+--- ASIN B0F5GKMNQF ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503645799      Rec=9     Mtc=9     Rem=
+
+--- ASIN B0F5GKF8JZ ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503645799      Rec=6     Mtc=6     Rem=
+
+--- ASIN B0F5GLQ6YX ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503645799      Rec=15    Mtc=15    Rem=
+
+--- ASIN B0F1XYC393 ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503645799      Rec=15    Mtc=15    Rem=
+
+--- ASIN B0F5GT7RCY ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=No match found  Rec=0     Mtc=      Rem=
+
+--- ASIN B0F1Y3NHT5 ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503645799      Rec=3     Mtc=3     Rem=
+
+--- ASIN B0F1Y2G5P6 ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503645799      Rec=6     Mtc=6     Rem=
+
+--- ASIN B0F5GRJ85M ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=No match found  Rec=0     Mtc=      Rem=
+
+--- ASIN B0BNPPPSDR ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503674251      Rec=160   Mtc=40    Rem=
+  M-0-1: SubInv=2503645669      Rec=      Mtc=120   Rem=
+
+--- ASIN B01420KKS0 ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503614750      Rec=365   Mtc=10    Rem=
+  M-0-1: SubInv=2503614750      Rec=      Mtc=5     Rem=
+  M-0-2: SubInv=2503614173      Rec=      Mtc=60    Rem=
+  M-0-3: SubInv=2503614173      Rec=      Mtc=5     Rem=
+  M-0-4: SubInv=2503614173      Rec=      Mtc=5     Rem=
+  M-0-5: SubInv=2503614173      Rec=      Mtc=15    Rem=
+  M-0-6: SubInv=2503614173      Rec=      Mtc=20    Rem=
+  M-0-7: SubInv=2503645669      Rec=      Mtc=245   Rem=
+
+--- ASIN B01420H9MA ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=                Rec=0     Mtc=0     Rem=
+
+--- ASIN B01420LFTS ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=                Rec=60    Mtc=60    Rem=
+
+--- ASIN B01420L0SO ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=                Rec=5     Mtc=5     Rem=
+
+--- ASIN B08JQKG8TP ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=                Rec=5     Mtc=5     Rem=
+  M-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+
+--- ASIN B01CP5W1YK ---
+TOOL:
+  T-0-0: SubInv=2503680010      Rec=60    Mtc=55    Rem=
+  T-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+  T-0-2: SubInv=2503680010      Rec=      Mtc=5     Rem=
+MANUAL:
+  M-0-0: SubInv=2503680010      Rec=60    Mtc=55    Rem=
+  M-0-1: SubInv=2503680010      Rec=      Mtc=5     Rem=
+
+--- ASIN B0BC992MZ8 ---
+TOOL:
+  T-0-0: SubInv=2503658505      Rec=60    Mtc=20    Rem=
+  T-0-1: SubInv=2503658505      Rec=      Mtc=15    Rem=
+  T-0-2: SubInv=2503680010      Rec=      Mtc=5     Rem=
+  T-0-3: SubInv=2503658505      Rec=      Mtc=5     Rem=
+  T-0-4: SubInv=2503658505      Rec=      Mtc=5     Rem=
+  T-0-5: SubInv=2503658505      Rec=      Mtc=5     Rem=
+  T-0-6: SubInv=2503658505      Rec=      Mtc=5     Rem=
+MANUAL:
+  M-0-0: SubInv=2503658505      Rec=60    Mtc=20    Rem=
+  M-0-1: SubInv=2503658505      Rec=      Mtc=15    Rem=
+  M-0-2: SubInv=2503680010      Rec=      Mtc=5     Rem=
+  M-0-3: SubInv=2503658505      Rec=      Mtc=5     Rem=
+  M-0-4: SubInv=2503658505      Rec=      Mtc=5     Rem=
+  M-0-5: SubInv=2503658505      Rec=      Mtc=5     Rem=
+  M-0-6: SubInv=2503658505      Rec=      Mtc=5     Rem=
+  M-1-0: SubInv=2503658505      Rec=5     Mtc=5     Rem=
+
+--- ASIN B0FNCVF15G ---
+TOOL:
+  T-0-0: SubInv=Short Received  Rec=5     Mtc=5     Rem=Phase 1 Direct Shortage: 20 units short received directly
+  T-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+MANUAL:
+  M-0-0: SubInv=2503658505      Rec=5     Mtc=5     Rem=
+
+--- ASIN B0BC92Z72M ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=No match found  Rec=0     Mtc=      Rem=
+
+--- ASIN B0FNCXV9SG ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=No match found  Rec=0     Mtc=      Rem=
+
+--- ASIN B0FNCXL4DJ ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=2503658505      Rec=10    Mtc=10    Rem=
+
+--- ASIN B0FNCV7WPM ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=                Rec=0     Mtc=      Rem=
+
+--- ASIN B0BC98B9GS ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=No match found  Rec=0     Mtc=      Rem=
+  M-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+
+--- ASIN B01CP5VXIK ---
+TOOL:
+  T-0-0: SubInv=2503679174      Rec=25    Mtc=25    Rem=
+MANUAL:
+  M-0-0: SubInv=2503679174      Rec=25    Mtc=25    Rem=
+
+--- ASIN B07XKHCJ9W ---
+TOOL:
+  T-0-0: SubInv=Self Matching   Rec=20    Mtc=20    Rem=Not Investigated Matching Invoice
+  T-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+MANUAL:
+  M-0-0: SubInv=2503679174      Rec=20    Mtc=15    Rem=
+  M-0-1: SubInv=2503659087      Rec=      Mtc=5     Rem=
+  M-1-0: SubInv=2503632617      Rec=5     Mtc=5     Rem=
+
+--- ASIN B0D6MMTD33 ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=No match found  Rec=0     Mtc=      Rem=
+  M-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+
+--- ASIN B01CP5VZOM ---
+TOOL:
+  T-0-0: SubInv=2503679395      Rec=20    Mtc=15    Rem=
+  T-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+  T-0-2: SubInv=2503679395      Rec=      Mtc=5     Rem=Not Investigated Other Loop
+MANUAL:
+  M-0-0: SubInv=2503679395      Rec=20    Mtc=15    Rem=
+  M-0-1: SubInv=2503679395      Rec=      Mtc=5     Rem=Not Investigated Other Loop
+
+--- ASIN B01ENCEOBG ---
+TOOL:
+  T-0-0: SubInv=                Rec=      Mtc=      Rem=SR
+  T-0-1: SubInv=Mtc Inv         Rec=Rec Qty Mtc=Mtc Qty Rem=Remarks
+MANUAL:
+  M-0-0: SubInv=No match found  Rec=0     Mtc=0     Rem=SR
+
+--- ASIN B0BB2J19PM ---
+TOOL:
+MANUAL:
+  M-0-0: SubInv=                Rec=0     Mtc=      Rem=
+

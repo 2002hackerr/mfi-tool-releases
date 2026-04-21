@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-dark: #07070b;
+  --color-bg-surface: #12131c;
+  --color-accent-red: #e94560;
+  --color-accent-blue: #4a9eff;
+  --color-text-main: #f4f4f6;
+  --color-text-muted: #8b8e9f;
+}
+
+:root {
+  background-color: var(--color-bg-dark);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--color-text-main);
+  background: var(--color-bg-dark);
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(233, 69, 96, 0.05), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(74, 158, 255, 0.05), transparent 25%);
+}
+
+.glass-panel {
+  background: rgba(18, 19, 28, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Animations that tailwind doesn't cover natively out of the box with complex glow */
+.glow-effect {
+  position: relative;
+}
+.glow-effect::before {
+  content: '';
+  position: absolute;
+  top: -2px; left: -2px; right: -2px; bottom: -2px;
+  background: linear-gradient(45deg, #e94560, #4a9eff, #e94560);
+  z-index: -1;
+  filter: blur(12px);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: inherit;
+}
+.glow-effect:hover::before {
+  opacity: 0.6;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.2);
+}

@@ -1,0 +1,118 @@
+MFI Investigation Tool — Detailed Logical Workflow (v5.0.3)
+==============================================================
+
+This document provides a step-by-step explanation of the tool's entire operational logic. It is designed to be fed into a Diagram GPT or Flowchart generator to visualize the system's architecture.
+
+---
+
+### 1. INITIALIZATION & DATA LOADING PHASE
+
+**What:** The tool starts by loading three primary data sources: Claims, REBNI (Receipt), and Invoice Search (Matching).
+**How:**
+1.  **Column Detection:** The tool uses a fuzzy mapping dictionary (COLUMN_ALIASES) to identify mandatory fields in the Claims file (ASIN, PQV, SID, PO, Invoice, etc.).
+2.  **Header Correction:** If headers are non-standard, a 'HeaderCorrectionDialog' appears for user approval.
+3.  **Indexing:** To ensure high performance, REBNI and Invoice Search data are transformed into hash-mapped dictionaries (Indices).
+    *   REBNI is indexed by (SID, PO, ASIN).
+    *   Invoice Search is indexed by (SID, PO, ASIN).
+    *   Fallback Indices are created for (SID, PO, Invoice Number) to handle cases where ASINs don't match standard patterns.
+
+---
+
+### 2. CORE INVESTIGATION ENGINE (PER ASIN)
+
+For every ASIN in the Claims file, the tool runs a recursive investigation. This is the "brain" of the tool.
+
+#### STEP A: REBNI Lookup (Physical Receipt Check)
+*   **Action:** Look up all receipt records for the specific (SID, PO, ASIN).
+*   **Rule:** Aggregation. It sums 'quantity_unpacked' across all rows to get the Total Received Quantity (Rec Qty).
+*   **Why:** To determine if the shortage is physical (it never arrived) or logical (it was received but matched to the wrong place).
+*   **REBNI Available Check:** If 'rebni_available' > 0, the tool stops and flags it as "Suggest TSP to utilize."
+
+#### STEP B: Direct Shortage Check (Early Exit)
+*   **Logic:** Shortage = (Invoice Qty - Rec Qty).
+*   **Condition:** If Shortage >= Claimed PQV.
+*   **Action:** The tool records "Short Received Directly" and stops.
+*   **Why:** If the physical shortage at the warehouse already explains the entire claim, there is no need to waste time tracing matching chains through other invoices.
+
+#### STEP C: Matching Investigation (Invoice Search)
+*   **Condition:** If physical shortage < PQV, it means some units were received but might be matched incorrectly.
+*   **Action:** Search the Invoice Search data for the (SID, PO, ASIN).
+*   **Deduplication:** Sort matches by 'mtc_qty' descending.
+
+#### STEP D: Self-Matching vs. Non-Self Matching
+*   **Case 1: Self-Matching** (The invoice matched to itself).
+    *   The tool records "Self Matching" and sets the Matched Quantity equal to the Received Quantity for that specific ASIN.
+    *   It terminates this branch (no further recursion).
+*   **Case 2: Non-Self Matching** (The units were matched to a DIFFERENT invoice).
+    *   This is a "legitimate branch." The tool records the target invoice and prepares to "dive" into it to see what happened to the units there.
+
+---
+
+### 3. THE RECURSION & BUDGETING LOGIC
+
+**What:** How the tool follows the "trail" across multiple invoices.
+**How:**
+1.  **Branch Budgeting:** When diving into a matched invoice, the tool sets a 'Branch Budget' equal to the 'Matched Quantity' from the previous step.
+2.  **Recursion:** The tool runs the same Step A-D on the new invoice.
+3.  **Contribution:** The shortage found in a sub-invoice is only "credited" to the claim if it falls within the Branch Budget.
+    *   *Shortage Contribution = min(Branch Budget, Found Shortage).*
+4.  **Loop Protection:** A 'Loop Cache' tracks (SID, PO, ASIN, Invoice) to prevent the tool from getting stuck in infinite matching loops.
+
+---
+
+### 4. CROSS PO INVESTIGATION LOGIC
+
+**What:** Detecting units received in the same shipment (SID) but under a different Purchase Order.
+**How:**
+1.  **Detection:** The tool scans the SID for the same ASIN where (Received Qty > Invoiced Qty).
+2.  **Case Types:**
+    *   **Case 1:** Nothing received at current PO, but received at another.
+    *   **Case 2:** ASIN not even ordered at another PO, but received there.
+    *   **Case 3:** Received more than ordered at another PO.
+3.  **Investigation:** For confirmed Cross POs, the tool automatically triggers a sub-investigation of the entire chain for those "overage" units.
+
+---
+
+### 5. OPERATIONAL MODES (AUTO VS. MANUAL)
+
+#### AUTO MODE
+*   The tool runs all recursion and Cross PO chains automatically.
+*   If a SID is missing, it pops up a 'SIDRequestDialog' for the user to provide the ID from DICES.
+
+#### MANUAL MODE (Detailed Step-by-Step)
+*   **Live Preview:** Shows a real-time table of rows being generated.
+*   **Decision Points:** At every level, the tool pauses and shows a 'ManualLevelDialog'.
+*   **User Actions:**
+    *   **Valid IBC/PBC:** User provides SID/Barcode and continues.
+    *   **Invalid IBC/PBC:** User excludes units (e.g., damaged or wrong ASIN).
+    *   **Mismatch/Overage:** User manually records overages found in DICES.
+    *   **Cross PO:** User manually triggers the Cross PO check.
+*   **Siblings Stack (v5.0.3):** If an ASIN is matched to 3 different invoices, the tool dived into Invoice A. v5.0.3 uses a stack to "remember" that Invoices B and C are still waiting to be investigated once the A-chain is finished.
+
+---
+
+### 6. SCR INVOICE RESOLUTION (SPECIAL LOGIC)
+
+**What:** Handling Amazon "SCR" (Credit/Re-bill) invoices.
+**How:**
+1.  **Strip SCR:** The tool identifies invoices ending in "SCR".
+2.  **Base Lookup:** It strips the suffix and looks up the original "Base" invoice in the data.
+3.  **Qty Resolution:** It pulls the 'Invoice Qty' from the Base invoice instead of the SCR row.
+**Why:** SCR rows often have 0 or misleading quantities; the Base invoice contains the ground truth for the investigation.
+
+---
+
+### 7. OUTPUT GENERATION (THE FINAL REPORT)
+
+**Action:** After all ASINs are processed, the tool generates a formatted Excel file.
+**Formatting (Color Coding):**
+*   **Red (FFE0E0):** Root Cause found (Direct Short or fully explained PQV).
+*   **Green (E2EFDA):** Standard Investigation row.
+*   **Blue (EBF3FB):** Sub-rows (Secondary matches).
+*   **Light Blue (D0F0FF):** REBNI Available / Shipment-level REBNI.
+*   **Yellow (FFF0C0):** Cross PO investigations.
+*   **Grey/Italic:** Manual invalidations.
+*   **SR (FFD7D7):** Short Received (No REBNI found at depth > 0).
+
+---
+END OF LOGIC DOCUMENT

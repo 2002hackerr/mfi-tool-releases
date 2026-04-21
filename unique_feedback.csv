@@ -1,0 +1,11 @@
+Barcode,Inv no,SID,PO,ASIN,Inv Qty,Rec Qty,Missing QTY
+30001163952435,9527199585SCR,5554767014973,2B8F4FRU,B0BHHY75T6,180,84,96
+,,,,,,,
+,,,,,,,
+NOTE - See for your reference I have given below The expected output Of a unique investigation should be like how it should be like If you cheque above there is it is only printing only one Like entry Till how much I have like investigation in investigation state till how many how much investigation is done for for that below is the unique entries So this should have been the expected output for unique investigation But it seems still it is only showing one line Like only one entry Okay so Cheque what is causing this and correct it ok ,,,,,,,
+,,,,,,,
+Barcode,Inv no,SID,PO,ASIN,Inv Qty,Rec Qty,Mtc Qty
+30001163952435,9527199585SCR,5554767014973,2B8F4FRU,B0BHHY75T6,180,84,96
+30001163953579,9527200210,5609086014973,5OKZLD5W,B0BHHY75T6,68,68,0
+30001163904809,9527185027SCRSCRSCR,5423605014973,8OMF6YFQ,B08PQ6VWPT,600,600,0
+30001162332702,9527176648,5363140014973,2OMLLHMK,B00649B4EM,2532,1448,1084

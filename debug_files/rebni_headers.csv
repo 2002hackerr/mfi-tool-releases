@@ -1,0 +1,15 @@
+0
+vendor_code
+po
+asin
+shipment_id
+received_datetime
+warehouse_id
+item_cost
+quantity_unpacked
+quantity_adjusted
+qty_received_postadj
+quantity_matched
+rebni_available
+cnt_invoice_matched
+matched_invoice_numbers

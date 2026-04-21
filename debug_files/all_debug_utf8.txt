@@ -1,0 +1,391 @@
+﻿================================================================================
+CLAIMS SHEET
+================================================================================
+
+--- Claim #0 ---
+  Barcode:    30001180912702
+  Invoice:    2503702230
+  PO:         á2WTJXTFT
+  ASIN:       B012SX56OG
+  Inv Qty:    2505
+  Missing:    296
+  PQV Value:  128070.32
+  SID:        5694387014973
+
+--- Claim #1 ---
+  Barcode:    30001180912702
+  Invoice:    2503702230
+  PO:         á2WTJXTFT
+  ASIN:       B01CP5W1ZY
+  Inv Qty:    70
+  Missing:    70
+  PQV Value:  23286.9
+  SID:        5694387014973
+
+--- Claim #2 ---
+  Barcode:    30001180912702
+  Invoice:    2503702230
+  PO:         á2WTJXTFT
+  ASIN:       B01CP5W1YK
+  Inv Qty:    60
+  Missing:    58
+  PQV Value:  19294.86
+  SID:        5694387014973
+
+--- Claim #3 ---
+  Barcode:    30001180912702
+  Invoice:    2503702230
+  PO:         á2WTJXTFT
+  ASIN:       B01CP5VXI0
+  Inv Qty:    60
+  Missing:    20
+  PQV Value:  5986.599999999999
+  SID:        5694387014973
+
+--- Claim #4 ---
+  Barcode:    30001180912702
+  Invoice:    2503702230
+  PO:         á2WTJXTFT
+  ASIN:       B01CP5W1Z4
+  Inv Qty:    45
+  Missing:    45
+  PQV Value:  14970.150000000001
+  SID:        5694387014973
+
+--- Claim #5 ---
+  Barcode:    30001180912702
+  Invoice:    2503702230
+  PO:         á2WTJXTFT
+  ASIN:       B01CP5VXIK
+  Inv Qty:    25
+  Missing:    25
+  PQV Value:  7483.25
+  SID:        5694387014973
+
+--- Claim #6 ---
+  Barcode:    30001180912702
+  Invoice:    2503702230
+  PO:         á2WTJXTFT
+  ASIN:       B012SX6IIE
+  Inv Qty:    330
+  Missing:    24
+  PQV Value:  10384.08
+  SID:        5694387014973
+
+--- Claim #7 ---
+  Barcode:    30001180912702
+  Invoice:    2503702230
+  PO:         á2WTJXTFT
+  ASIN:       B01CP5VZOM
+  Inv Qty:    20
+  Missing:    20
+  PQV Value:  5986.599999999999
+  SID:        5694387014973
+
+--- Claim #8 ---
+  Barcode:    30001180912702
+  Invoice:    2503702230
+  PO:         á2WTJXTFT
+  ASIN:       B01CP5VXFS
+  Inv Qty:    15
+  Missing:    15
+  PQV Value:  4489.95
+  SID:        5694387014973
+
+--- Claim #9 ---
+  Barcode:    30001180912702
+  Invoice:    2503702230
+  PO:         á2WTJXTFT
+  ASIN:       B01CP5VZK6
+  Inv Qty:    15
+  Missing:    15
+  PQV Value:  4590
+  SID:        5694387014973
+
+================================================================================
+TOOL OUTPUT
+================================================================================
+Shape: (68, 12)
+Columns: ['Barcode', 'Inv no', 'SID', 'PO', 'ASIN', 'Inv Qty', 'Rec Qty', 'Mtc Qty', 'Mtc Inv', 'Remarks', 'Date', 'CP']
+
+Row 0: Barcode=30001180912702 | Inv=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B012SX56OG | InvQty=2505 | RecQty=2490 | MtcQty=2490 | MtcInv=Self Matching | Remarks=nan | CP=nan
+
+Row 1: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 2: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 3: Barcode=30001180912702 | Inv=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5W1ZY | InvQty=70 | RecQty=70 | MtcQty=68 | MtcInv=2503673903 | Remarks=nan | CP=Within 10% CP | Claiming CP: 332.67, Matched CP: 332.67 (range: 299.40û365.94)
+
+Row 4: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 5: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 6: Barcode=30001180912702 | Inv=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B012SX56OG | InvQty=2505 | RecQty=2490 | MtcQty=2490 | MtcInv=Self Matching | Remarks=nan | CP=nan
+
+Row 7: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 8: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 9: Barcode=30001180912702 | Inv=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5W1ZY | InvQty=70 | RecQty=70 | MtcQty=68 | MtcInv=2503673903 | Remarks=nan | CP=Within 10% CP | Claiming CP: 332.67, Matched CP: 332.67 (range: 299.40û365.94)
+
+Row 10: Barcode=30001184753189 | Inv=2503673903 | SID=5629844014973 | PO=5T8CPOKY | ASIN=B010FMNXB0 | InvQty=250 | RecQty=180 | MtcQty=180 | MtcInv=Self Matching | Remarks=nan | CP=nan
+
+Row 11: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 12: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 13: Barcode=30001180912702 | Inv=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5W1YK | InvQty=60 | RecQty=60 | MtcQty=55 | MtcInv=2503680010 | Remarks=nan | CP=Within 10% CP | Claiming CP: 332.67, Matched CP: 352.67 (range: 299.40û365.94)
+
+Row 14: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 15: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 16: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=5 | MtcInv=2503680010 | Remarks=nan | CP=Claiming CP: 332.67 | Matched CP: N/A
+
+Row 17: Barcode=30001184741476 | Inv=2503680010 | SID=5694372014973 | PO=5NY5XYFW | ASIN=B0BC992MZ8 | InvQty=60 | RecQty=60 | MtcQty=20 | MtcInv=2503658505 | Remarks=nan | CP=Within 10% CP | Parent ASIN CP: 352.67, Sub-Matched CP: 352.67 (range: 317.40û387.94)
+
+Row 18: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=15 | MtcInv=2503658505 | Remarks=nan | CP=Within 10% CP | Parent ASIN CP: 352.67, Sub-Matched CP: 352.67 (range: 317.40û387.94)
+
+Row 19: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=5 | MtcInv=2503680010 | Remarks=nan | CP=Within 10% CP | Parent ASIN CP: 352.67, Sub-Matched CP: 352.67 (range: 317.40û387.94)
+
+Row 20: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=5 | MtcInv=2503658505 | Remarks=nan | CP=Parent ASIN CP: 352.67 | Sub-Matched CP: N/A
+
+Row 21: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=5 | MtcInv=2503658505 | Remarks=nan | CP=Within 10% CP | Parent ASIN CP: 352.67, Sub-Matched CP: 352.67 (range: 317.40û387.94)
+
+Row 22: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=5 | MtcInv=2503658505 | Remarks=nan | CP=Parent ASIN CP: 352.67 | Sub-Matched CP: N/A
+
+Row 23: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=5 | MtcInv=2503658505 | Remarks=nan | CP=Parent ASIN CP: 352.67 | Sub-Matched CP: N/A
+
+Row 24: Barcode=30001184827194 | Inv=2503658505 | SID=5609508014973 | PO=7GTA6Q2O | ASIN=B0FNCVF15G | InvQty=25 | RecQty=5 | MtcQty=5 | MtcInv=Short Received | Remarks=Phase 1 Direct Shortage: 20 units short received directly | CP=nan
+
+Row 25: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 26: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 27: Barcode=30001180912702 | Inv=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5VXI0 | InvQty=60 | RecQty=55 | MtcQty=50 | MtcInv=2503678136 | Remarks=nan | CP=Within 10% CP | Claiming CP: 299.33, Matched CP: 299.33 (range: 269.40û329.26)
+
+Row 28: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 29: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 30: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=5 | MtcInv=2503679395 | Remarks=nan | CP=Within 10% CP | Claiming CP: 299.33, Matched CP: 319.33 (range: 269.40û329.26)
+
+Row 31: Barcode=30001184741148 | Inv=2503678136 | SID=5694372014973 | PO=5T8CPOKY | ASIN=B0BXD6J96Q | InvQty=55 | RecQty=55 | MtcQty=35 | MtcInv=2503659123 | Remarks=nan | CP=Within 10% CP | Parent ASIN CP: 299.33, Sub-Matched CP: 299.33 (range: 269.40û329.26)
+
+Row 32: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=15 | MtcInv=2503673540 | Remarks=nan | CP=Within 10% CP | Parent ASIN CP: 299.33, Sub-Matched CP: 286.00 (range: 269.40û329.26)
+
+Row 33: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=5 | MtcInv=2503674237 | Remarks=nan | CP=Parent ASIN CP: 299.33 | Sub-Matched CP: N/A
+
+Row 34: Barcode=[INVALID] | Inv=2503659123 | SID=ù | PO=7GTA6Q2O | ASIN=B0BXD6J96Q | InvQty=35 | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=35 units matched to invalid invoice 2503659123 ù excluded from PQV | CP=nan
+
+Row 35: Barcode=30001184753165 | Inv=2503673540 | SID=5629844014973 | PO=5T8CPOKY | ASIN=B0FDQ5XT5H | InvQty=30 | RecQty=30 | MtcQty=25 | MtcInv=2503645361 | Remarks=nan | CP=Within 10% CP | Parent ASIN CP: 286.00, Sub-Matched CP: 266.00 (range: 257.40û314.60)
+
+Row 36: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=5 | MtcInv=2503645361 | Remarks=nan | CP=Within 10% CP | Parent ASIN CP: 286.00, Sub-Matched CP: 266.00 (range: 257.40û314.60)
+
+Row 37: Barcode=30001184815023 | Inv=2503645361 | SID=5541667014973 | PO=45WYSAIV | ASIN=B014213X8I | InvQty=65 | RecQty=65 | MtcQty=35 | MtcInv=2503613962 | Remarks=nan | CP=Within 10% CP | Parent ASIN CP: 266.00, Sub-Matched CP: 286.00 (range: 239.40û292.60)
+
+Row 38: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=30 | MtcInv=2503645361 | Remarks=nan | CP=Within 10% CP | Parent ASIN CP: 266.00, Sub-Matched CP: 266.00 (range: 239.40û292.60)
+
+Row 39: Barcode=30001162233887 | Inv=2503613962 | SID=5461781014973 | PO=1W242D8C | ASIN=B0B9GCSVMN | InvQty=55 | RecQty=20 | MtcQty=20 | MtcInv=Short Received | Remarks=Phase 1 Direct Shortage: 35 units short received directly | CP=nan
+
+Row 40: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 41: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 42: Barcode=30001180912702 | Inv=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5W1Z4 | InvQty=45 | RecQty=45 | MtcQty=68 | MtcInv=2503673903 | Remarks=nan | CP=Within 10% CP | Claiming CP: 332.67, Matched CP: 338.67 (range: 299.40û365.94)
+
+Row 43: Barcode=30001184753189 | Inv=2503673903 | SID=5629844014973 | PO=5T8CPOKY | ASIN=B010FMO0YY | InvQty=210 | RecQty=140 | MtcQty=140 | MtcInv=Short Received | Remarks=Phase 1 Direct Shortage: 70 units short received directly | CP=nan
+
+Row 44: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 45: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 46: Barcode=30001180912702 | Inv=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5VXIK | InvQty=25 | RecQty=25 | MtcQty=25 | MtcInv=2503679174 | Remarks=nan | CP=Within 10% CP | Claiming CP: 299.33, Matched CP: 299.33 (range: 269.40û329.26)
+
+Row 47: Barcode=30001184729221 | Inv=2503679174 | SID=5654653014973 | PO=5NY5XYFW | ASIN=B07XKHCJ9W | InvQty=40 | RecQty=20 | MtcQty=20 | MtcInv=Self Matching | Remarks=Not Investigated Matching Invoice | CP=nan
+
+Row 48: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 49: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 50: Barcode=30001180912702 | Inv=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B012SX6IIE | InvQty=330 | RecQty=290 | MtcQty=290 | MtcInv=Short Received | Remarks=Phase 1 Direct Shortage: 40 units short received directly | CP=nan
+
+Row 51: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 52: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 53: Barcode=30001180912702 | Inv=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5VZOM | InvQty=20 | RecQty=20 | MtcQty=15 | MtcInv=2503679395 | Remarks=nan | CP=Claiming CP: 299.33 | Matched CP: N/A
+
+Row 54: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 55: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 56: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=5 | MtcInv=2503679395 | Remarks=Not Investigated Other Loop | CP=Claiming CP: 299.33 | Matched CP: N/A
+
+Row 57: Barcode=30001184729214 | Inv=2503679395 | SID=5654653014973 | PO=5NY5XYFW | ASIN=B01ENCEOBG | InvQty=15 | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=SR | CP=nan
+
+Row 58: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 59: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 60: Barcode=30001180912702 | Inv=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5VXFS | InvQty=15 | RecQty=15 | MtcQty=15 | MtcInv=2503679395 | Remarks=nan | CP=Within 10% CP | Claiming CP: 299.33, Matched CP: 319.33 (range: 269.40û329.26)
+
+Row 61: Barcode=30001184729214 | Inv=2503679395 | SID=5654653014973 | PO=5NY5XYFW | ASIN=B0BB2F1CY9 | InvQty=20 | RecQty=15 | MtcQty=15 | MtcInv=2503679394 | Remarks=nan | CP=Within 10% CP | Parent ASIN CP: 319.33, Sub-Matched CP: 299.33 (range: 287.40û351.26)
+
+Row 62: Barcode=30001184746327 | Inv=2503679394 | SID=5629843014973 | PO=5NY5XYFW | ASIN=B0C58J9Y55 | InvQty=30 | RecQty=10 | MtcQty=10 | MtcInv=Short Received | Remarks=Phase 1 Direct Shortage: 20 units short received directly | CP=nan
+
+Row 63: Barcode=nan | Inv=nan | SID=nan | PO=nan | ASIN=nan | InvQty=nan | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=nan | CP=nan
+
+Row 64: Barcode=Barcode | Inv=Inv no | SID=SID | PO=PO | ASIN=ASIN | InvQty=Inv Qty | RecQty=Rec Qty | MtcQty=Mtc Qty | MtcInv=Mtc Inv | Remarks=Remarks | CP=CP
+
+Row 65: Barcode=30001180912702 | Inv=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5VZK6 | InvQty=15 | RecQty=15 | MtcQty=15 | MtcInv=2503679395 | Remarks=nan | CP=Within 10% CP | Claiming CP: 306.00, Matched CP: 319.33 (range: 275.40û336.60)
+
+Row 66: Barcode=30001184729214 | Inv=2503679395 | SID=5654653014973 | PO=5NY5XYFW | ASIN=B01ENCFD3O | InvQty=15 | RecQty=5 | MtcQty=5 | MtcInv=2503657339 | Remarks=nan | CP=Parent ASIN CP: 319.33 | Sub-Matched CP: N/A
+
+Row 67: Barcode=30001184827163 | Inv=2503657339 | SID=5609508014973 | PO=7GTA6Q2O | ASIN=B01ENCFD3O | InvQty=15 | RecQty=nan | MtcQty=nan | MtcInv=nan | Remarks=SR | CP=nan
+
+================================================================================
+YOUR MANUAL INVESTIGATION (CORRECT OUTPUT)
+================================================================================
+Shape: (140, 12)
+Columns: ['Barcode', 'Inv no', 'SID', 'PO', 'ASIN', 'Inv Qty', 'Rec Qty', 'Mtc Qty', 'Mtc Inv', 'Remarks', 'Date', 'CP']
+Row 0: Barcode=30001180912702 | Inv no=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5W1ZY | Inv Qty=70 | Rec Qty=70 | Mtc Qty=68 | Mtc Inv=2503673903 | Date=2026-03-16 21:18:39 | CP=Within 10% CP | Claiming CP: 332.67, Matched CP: 332.67 (range: 299.40û365.94)
+Row 1: Barcode=30001184753189 | Inv no=2503673903 | SID=5629844014973 | PO=5T8CPOKY | ASIN=B010FMNXB0 | Inv Qty=250 | Rec Qty=180 | Mtc Qty=180 | Mtc Inv=Self Matching | Date=2026-03-04 23:52:37
+Row 2: 
+Row 3: Barcode=Barcode | Inv no=Inv no | SID=SID | PO=PO | ASIN=ASIN | Inv Qty=Inv Qty | Rec Qty=Rec Qty | Mtc Qty=Mtc Qty | Mtc Inv=Mtc Inv | Remarks=Remarks | Date=Date | CP=CP
+Row 4: Barcode=30001180912702 | Inv no=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5VXI0 | Inv Qty=60 | Rec Qty=55 | Mtc Qty=50 | Mtc Inv=2503678136 | Date=2026-03-16 21:47:48 | CP=Within 10% CP | Claiming CP: 299.33, Matched CP: 299.33 (range: 269.40û329.26)
+Row 5: Mtc Qty=5 | Mtc Inv=2503679395 | CP=Within 10% CP | Claiming CP: 299.33, Matched CP: 319.33 (range: 269.40û329.26)
+Row 6: Barcode=30001184741148 | Inv no=2503678136 | SID=5694372014973 | PO=5T8CPOKY | ASIN=B0BXD6J96Q | Inv Qty=55 | Rec Qty=55 | Mtc Qty=35 | Mtc Inv=2503659123 | Date=2026-03-06 09:30:24 | CP=Within 10% CP | Parent ASIN CP: 299.33, Sub-Matched CP: 299.33 (range: 269.40û329.26)
+Row 7: Mtc Qty=15 | Mtc Inv=2503673540 | CP=Within 10% CP | Parent ASIN CP: 299.33, Sub-Matched CP: 286.00 (range: 269.40û329.26)
+Row 8: Mtc Qty=5 | Mtc Inv=2503674237 | CP=Parent ASIN CP: 299.33 | Sub-Matched CP: N/A
+Row 9: Barcode=[INVALID] | Inv no=2503659123 | SID=ù | PO=7GTA6Q2O | ASIN=B0BXD6J96Q | Inv Qty=35 | Remarks=35 units matched to invalid invoice 2503659123 ù excluded from PQV
+Row 10: Barcode=30001184753165 | Inv no=2503673540 | SID=5629844014973 | PO=5T8CPOKY | ASIN=B0FDQ5XT5H | Inv Qty=30 | Rec Qty=30 | Mtc Qty=25 | Mtc Inv=2503645361 | Date=2026-03-04 19:16:48 | CP=Within 10% CP | Parent ASIN CP: 286.00, Sub-Matched CP: 266.00 (range: 257.40û314.60)
+Row 11: Mtc Qty=5 | Mtc Inv=2503645361 | CP=Within 10% CP | Parent ASIN CP: 286.00, Sub-Matched CP: 266.00 (range: 257.40û314.60)
+Row 12: Barcode=30001184815023 | Inv no=2503645361 | SID=5541667014973 | PO=45WYSAIV | ASIN=B014213X8I | Inv Qty=65 | Rec Qty=65 | Mtc Qty=35 | Mtc Inv=2503613962 | Date=2026-02-17 22:54:41 | CP=Within 10% CP | Parent ASIN CP: 266.00, Sub-Matched CP: 286.00 (range: 239.40û292.60)
+Row 13: Mtc Qty=30 | Mtc Inv=2503645361 | CP=Within 10% CP | Parent ASIN CP: 266.00, Sub-Matched CP: 266.00 (range: 239.40û292.60)
+Row 14: Barcode=30001162233887 | Inv no=2503613962 | SID=5461781014973 | PO=1W242D8C | ASIN=B0B9GCSVMN | Inv Qty=55 | Rec Qty=20 | Mtc Qty=20 | Mtc Inv=Short Received | Remarks=Phase 1 Direct Shortage: 35 units short received directly | Date=2026-01-30 12:33:11
+Row 15: 
+Row 16: Barcode=Barcode | Inv no=Inv no | SID=SID | PO=PO | ASIN=ASIN | Inv Qty=Inv Qty | Rec Qty=Rec Qty | Mtc Qty=Mtc Qty | Mtc Inv=Mtc Inv | Remarks=Remarks | Date=Date | CP=CP
+Row 17: Barcode=30001180912702 | Inv no=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5W1Z4 | Inv Qty=45 | Rec Qty=45 | Mtc Qty=45 | Mtc Inv=2503673903 | Date=2026-03-16 22:33:52 | CP=Within 10% CP | Claiming CP: 332.67, Matched CP: 338.67 (range: 299.40û365.94)
+Row 18: Barcode=30001184753189 | Inv no=2503673903 | SID=5629844014973 | PO=5T8CPOKY | ASIN=B010FMO0YY | Inv Qty=210 | Rec Qty=140 | Mtc Qty=140 | Mtc Inv=Short Received | Remarks=Phase 1 Direct Shortage: 70 units short received directly | Date=2026-03-05 00:12:16
+Row 19: 
+Row 20: 
+Row 21: Barcode=Barcode | Inv no=Inv no | SID=SID | PO=PO | ASIN=ASIN | Inv Qty=Inv Qty | Rec Qty=Rec Qty | Mtc Qty=Mtc Qty | Mtc Inv=Mtc Inv | Remarks=Remarks | Date=Date | CP=CP
+Row 22: Barcode=30001180912702 | Inv no=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B012SX6IIE | Inv Qty=330 | Rec Qty=290 | Mtc Qty=290 | Mtc Inv=Short Received | Remarks=Phase 1 Direct Shortage: 40 units short received directly | Date=2026-03-16 21:01:15
+Row 23: 
+Row 24: 
+Row 25: Barcode=Barcode | Inv no=Inv no | SID=SID | PO=PO | ASIN=ASIN | Inv Qty=Inv Qty | Rec Qty=Rec Qty | Mtc Qty=Mtc Qty | Mtc Inv=Mtc Inv | Remarks=Remarks | Date=Date | CP=CP
+Row 26: Barcode=30001180912702 | Inv no=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5VXFS | Inv Qty=15 | Rec Qty=15 | Mtc Qty=15 | Mtc Inv=2503679395 | Date=2026-03-16 21:17:54 | CP=Within 10% CP | Claiming CP: 299.33, Matched CP: 319.33 (range: 269.40û329.26)
+Row 27: Barcode=30001184729214 | Inv no=2503679395 | SID=5654653014973 | PO=5NY5XYFW | ASIN=B0BB2F1CY9 | Inv Qty=20 | Rec Qty=15 | Mtc Qty=15 | Mtc Inv=2503679394 | Date=2026-03-07 11:08:44 | CP=Within 10% CP | Parent ASIN CP: 319.33, Sub-Matched CP: 299.33 (range: 287.40û351.26)
+Row 28: Barcode=30001184746327 | Inv no=2503679394 | SID=5629843014973 | PO=5NY5XYFW | ASIN=B0C58J9Y55 | Inv Qty=30 | Rec Qty=10 | Mtc Qty=10 | Mtc Inv=Short Received | Remarks=Phase 1 Direct Shortage: 20 units short received directly | Date=2026-03-04 21:40:23
+Row 29: 
+Row 30: Barcode=Barcode | Inv no=Inv no | SID=SID | PO=PO | ASIN=ASIN | Inv Qty=Inv Qty | Rec Qty=Rec Qty | Mtc Qty=Mtc Qty | Mtc Inv=Mtc Inv | Remarks=Remarks | Date=Date | CP=CP
+Row 31: Barcode=30001180912702 | Inv no=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5VZK6 | Inv Qty=15 | Rec Qty=15 | Mtc Qty=15 | Mtc Inv=2503679395 | Date=2026-03-16 21:47:12 | CP=Within 10% CP | Claiming CP: 306.00, Matched CP: 319.33 (range: 275.40û336.60)
+Row 32: Barcode=30001184729214 | Inv no=2503679395 | SID=5654653014973 | PO=5NY5XYFW | ASIN=B01ENCFD3O | Inv Qty=15 | Rec Qty=5 | Mtc Qty=5 | Mtc Inv=2503657339 | Date=2026-03-07 11:58:41 | CP=Parent ASIN CP: 319.33 | Sub-Matched CP: N/A
+Row 33: Barcode=30001184827163 | Inv no=2503657339 | SID=5609508014973 | PO=7GTA6Q2O | ASIN=B01ENCFD3O | Inv Qty=15 | Remarks=SR
+Row 34: 
+Row 35: 
+Row 36: Barcode=Barcode | Inv no=Inv no | SID=SID | PO=PO | ASIN=ASIN | Inv Qty=Inv Qty | Rec Qty=Rec Qty | Mtc Qty=Mtc Qty | Mtc Inv=Mtc Inv | Remarks=Remarks | Date=Date | CP=CP
+Row 37: Barcode=30001180912702 | Inv no=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B012SX56OG | Inv Qty=2505 | Rec Qty=2495 | Mtc Qty=10 | Mtc Inv=2503675013 | Date=2026-03-16 20:25:55
+Row 38: Mtc Qty=15 | Mtc Inv=2503675013
+Row 39: Mtc Qty=5 | Mtc Inv=2503675013
+Row 40: Mtc Qty=51 | Mtc Inv=2503675013
+Row 41: Mtc Qty=5 | Mtc Inv=2503675013
+Row 42: Mtc Qty=100 | Mtc Inv=2503674251
+Row 43: Mtc Qty=100 | Mtc Inv=2503674251
+Row 44: Mtc Qty=389 | Mtc Inv=2503702230
+Row 45: Mtc Qty=1820 | Mtc Inv=2503702230
+Row 46: Barcode=30001184753127 | Inv no=2503675013 | SID=5629844014973 | PO=5T8CPOKY | ASIN=B012SSXQGG | Inv Qty=215 | Rec Qty=89 | Mtc Qty=89 | Mtc Inv=2503675013
+Row 47: Barcode=30001184753127 | Inv no=2503675013 | SID=5629844014973 | PO=5T8CPOKY | ASIN=B0DY8219MH | Inv Qty=10 | Rec Qty=0 | Mtc Qty=0
+Row 48: Barcode=30001184753127 | Inv no=2503675013 | SID=5629844014973 | PO=5T8CPOKY | ASIN=B012STQAAO | Inv Qty=20 | Rec Qty=5 | Mtc Qty=5 | Mtc Inv=2503675013
+Row 49: Barcode=30001184753127 | Inv no=2503675013 | SID=5629844014973 | PO=5T8CPOKY | ASIN=B0DY82B8F4 | Inv Qty=5 | Rec Qty=0 | Mtc Qty=0
+Row 50: Barcode=30001184753127 | Inv no=2503675013 | SID=5629844014973 | PO=5T8CPOKY | ASIN=B07911VHLV | Inv Qty=10 | Rec Qty=5 | Mtc Qty=5 | Mtc Inv=2503675013
+Row 51: 
+Row 52: Barcode=30001184746297 | Inv no=2503674251 | SID=5629844014973 | PO=5T8CPOKY | ASIN=B0BNPQ38BT | Inv Qty=280 | Rec Qty=280 | Mtc Qty=9 | Mtc Inv=2503645799
+Row 53: Mtc Qty=3 | Mtc Inv=2503645799
+Row 54: Mtc Qty=6 | Mtc Inv=2503645799
+Row 55: Mtc Qty=3 | Mtc Inv=2503645799
+Row 56: Mtc Qty=9 | Mtc Inv=2503645799
+Row 57: Mtc Qty=10 | Mtc Inv=2503645799
+Row 58: Mtc Qty=9 | Mtc Inv=2503645799
+Row 59: Mtc Qty=1 | Mtc Inv=2503645799
+Row 60: Mtc Qty=6 | Mtc Inv=2503645799
+Row 61: Mtc Qty=9 | Mtc Inv=2503645799
+Row 62: Mtc Qty=3 | Mtc Inv=2503645799
+Row 63: Mtc Qty=5 | Mtc Inv=2503645799
+Row 64: Mtc Qty=6 | Mtc Inv=2503645799
+Row 65: Mtc Qty=6 | Mtc Inv=2503645799
+Row 66: Mtc Qty=9 | Mtc Inv=2503645799
+Row 67: Mtc Qty=6 | Mtc Inv=2503645799
+Row 68: Mtc Qty=180 | Mtc Inv=2503674251
+Row 69: 
+Row 70: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F5GL4469 | Inv Qty=9 | Rec Qty=0 | Mtc Inv=No match found
+Row 71: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F1Y2Z2XP | Inv Qty=3 | Rec Qty=0 | Mtc Inv=No match found
+Row 72: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F5GN2G38 | Inv Qty=6 | Rec Qty=0 | Mtc Inv=No match found
+Row 73: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F1Y27XQ5 | Inv Qty=9 | Rec Qty=6 | Mtc Qty=6 | Mtc Inv=2503645799
+Row 74: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F1Y9VG35 | Inv Qty=18 | Rec Qty=9 | Mtc Qty=9 | Mtc Inv=2503645799
+Row 75: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0BNPQ38BT | Inv Qty=10 | Rec Qty=0 | Mtc Inv=No match found
+Row 76: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F5GJVKWN | Inv Qty=33 | Rec Qty=24 | Mtc Qty=24 | Mtc Inv=2503645799
+Row 77: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F5GK9LP5 | Inv Qty=24 | Rec Qty=3 | Mtc Qty=3 | Mtc Inv=2503645799
+Row 78: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F5GKMNQF | Inv Qty=15 | Rec Qty=9 | Mtc Qty=9 | Mtc Inv=2503645799
+Row 79: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F5GKF8JZ | Inv Qty=15 | Rec Qty=6 | Mtc Qty=6 | Mtc Inv=2503645799
+Row 80: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F5GLQ6YX | Inv Qty=18 | Rec Qty=15 | Mtc Qty=15 | Mtc Inv=2503645799
+Row 81: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F1XYC393 | Inv Qty=21 | Rec Qty=15 | Mtc Qty=15 | Mtc Inv=2503645799
+Row 82: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F5GT7RCY | Inv Qty=6 | Rec Qty=0 | Mtc Inv=No match found
+Row 83: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F1Y3NHT5 | Inv Qty=9 | Rec Qty=3 | Mtc Qty=3 | Mtc Inv=2503645799
+Row 84: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F1Y2G5P6 | Inv Qty=15 | Rec Qty=6 | Mtc Qty=6 | Mtc Inv=2503645799
+Row 85: Barcode=30001184817898 | Inv no=2503645799 | SID=5571868014973 | PO=45WYSAIV | ASIN=B0F5GRJ85M | Inv Qty=6 | Rec Qty=0 | Mtc Inv=No match found
+Row 86: 
+Row 87: Barcode=30001184746297 | Inv no=2503674251 | SID=5629844014973 | PO=5T8CPOKY | ASIN=B0BNPPPSDR | Inv Qty=160 | Rec Qty=160 | Mtc Qty=40 | Mtc Inv=2503674251
+Row 88: Mtc Qty=120 | Mtc Inv=2503645669
+Row 89: 
+Row 90: Barcode=30001184815016 | Inv no=2503645669 | SID=5541667014973 | PO=45WYSAIV | ASIN=B01420KKS0 | Inv Qty=365 | Rec Qty=365 | Mtc Qty=10 | Mtc Inv=2503614750
+Row 91: Mtc Qty=5 | Mtc Inv=2503614750
+Row 92: Mtc Qty=60 | Mtc Inv=2503614173
+Row 93: Mtc Qty=5 | Mtc Inv=2503614173
+Row 94: Mtc Qty=5 | Mtc Inv=2503614173
+Row 95: Mtc Qty=15 | Mtc Inv=2503614173
+Row 96: Mtc Qty=20 | Mtc Inv=2503614173
+Row 97: Mtc Qty=245 | Mtc Inv=2503645669
+Row 98: Barcode=30001162233917 | Inv no=2503614173 | SID=5461781014973 | PO=1W242D8C | ASIN=B01420H9MA | Inv Qty=5 | Rec Qty=0 | Mtc Qty=0
+Row 99: Barcode=30001162233917 | Inv no=2503614173 | SID=5461781014973 | PO=1W242D8C | ASIN=B01420LFTS | Inv Qty=120 | Rec Qty=60 | Mtc Qty=60
+Row 100: Barcode=30001162233917 | Inv no=2503614173 | SID=5461781014973 | PO=1W242D8C | ASIN=B01420L0SO | Inv Qty=25 | Rec Qty=5 | Mtc Qty=5
+Row 101: Barcode=30001162233917 | Inv no=2503614173 | SID=5461781014973 | PO=1W242D8C | ASIN=B08JQKG8TP | Inv Qty=20 | Rec Qty=5 | Mtc Qty=5
+Row 102: 
+Row 103: 
+Row 104: Barcode=Barcode | Inv no=Inv no | SID=SID | PO=PO | ASIN=ASIN | Inv Qty=Inv Qty | Rec Qty=Rec Qty | Mtc Qty=Mtc Qty | Mtc Inv=Mtc Inv | Remarks=Remarks | Date=Date | CP=CP
+Row 105: Barcode=30001180912702 | Inv no=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5W1YK | Inv Qty=60 | Rec Qty=60 | Mtc Qty=55 | Mtc Inv=2503680010 | Date=2026-03-16 20:40:40 | CP=Within 10% CP | Claiming CP: 332.67, Matched CP: 352.67 (range: 299.40û365.94)
+Row 106: Mtc Qty=5 | Mtc Inv=2503680010 | CP=Claiming CP: 332.67 | Matched CP: N/A
+Row 107: Barcode=30001184741476 | Inv no=2503680010 | SID=5694372014973 | PO=5NY5XYFW | ASIN=B0BC992MZ8 | Inv Qty=60 | Rec Qty=60 | Mtc Qty=20 | Mtc Inv=2503658505 | Date=2026-03-06 09:03:23 | CP=Within 10% CP | Parent ASIN CP: 352.67, Sub-Matched CP: 352.67 (range: 317.40û387.94)
+Row 108: Mtc Qty=15 | Mtc Inv=2503658505 | CP=Within 10% CP | Parent ASIN CP: 352.67, Sub-Matched CP: 352.67 (range: 317.40û387.94)
+Row 109: Mtc Qty=5 | Mtc Inv=2503680010 | CP=Within 10% CP | Parent ASIN CP: 352.67, Sub-Matched CP: 352.67 (range: 317.40û387.94)
+Row 110: Mtc Qty=5 | Mtc Inv=2503658505 | CP=Parent ASIN CP: 352.67 | Sub-Matched CP: N/A
+Row 111: Mtc Qty=5 | Mtc Inv=2503658505 | CP=Within 10% CP | Parent ASIN CP: 352.67, Sub-Matched CP: 352.67 (range: 317.40û387.94)
+Row 112: Mtc Qty=5 | Mtc Inv=2503658505 | CP=Parent ASIN CP: 352.67 | Sub-Matched CP: N/A
+Row 113: Mtc Qty=5 | Mtc Inv=2503658505 | CP=Parent ASIN CP: 352.67 | Sub-Matched CP: N/A
+Row 114: Barcode=30001184827194 | Inv no=2503658505 | SID=5609508014973 | PO=7GTA6Q2O | ASIN=B0FNCVF15G | Inv Qty=25 | Rec Qty=5 | Mtc Qty=5 | Mtc Inv=2503658505
+Row 115: Barcode=30001184827194 | Inv no=2503658505 | SID=5609508014973 | PO=7GTA6Q2O | ASIN=B0BC92Z72M | Inv Qty=5 | Rec Qty=0 | Mtc Inv=No match found
+Row 116: Barcode=30001184827194 | Inv no=2503658505 | SID=5609508014973 | PO=7GTA6Q2O | ASIN=B0BC992MZ8 | Inv Qty=20 | Rec Qty=5 | Mtc Qty=5 | Mtc Inv=2503658505
+Row 117: Barcode=30001184827194 | Inv no=2503658505 | SID=5609508014973 | PO=7GTA6Q2O | ASIN=B0FNCXV9SG | Inv Qty=5 | Rec Qty=0 | Mtc Inv=No match found
+Row 118: Barcode=30001184827194 | Inv no=2503658505 | SID=5609508014973 | PO=7GTA6Q2O | ASIN=B0FNCXL4DJ | Inv Qty=15 | Rec Qty=10 | Mtc Qty=10 | Mtc Inv=2503658505
+Row 119: Barcode=30001184827194 | Inv no=2503658505 | SID=5609508014973 | PO=7GTA6Q2O | ASIN=B0FNCV7WPM | Inv Qty=5 | Rec Qty=0
+Row 120: 
+Row 121: 
+Row 122: Barcode=30001184741476 | Inv no=2503680010 | SID=5694372014973 | PO=5NY5XYFW | ASIN=B0BC98B9GS | Inv Qty=5 | Rec Qty=0 | Mtc Inv=No match found
+Row 123: 
+Row 124: 
+Row 125: Barcode=Barcode | Inv no=Inv no | SID=SID | PO=PO | ASIN=ASIN | Inv Qty=Inv Qty | Rec Qty=Rec Qty | Mtc Qty=Mtc Qty | Mtc Inv=Mtc Inv | Remarks=Remarks | Date=Date | CP=CP
+Row 126: Barcode=30001180912702 | Inv no=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5VXIK | Inv Qty=25 | Rec Qty=25 | Mtc Qty=25 | Mtc Inv=2503679174 | Date=2026-03-16 20:36:34 | CP=Within 10% CP | Claiming CP: 299.33, Matched CP: 299.33 (range: 269.40û329.26)
+Row 127: Barcode=30001184729221 | Inv no=2503679174 | SID=5654653014973 | PO=5NY5XYFW | ASIN=B07XKHCJ9W | Inv Qty=40 | Rec Qty=20 | Mtc Qty=15 | Mtc Inv=2503679174 | Date=2026-03-07 10:35:36
+Row 128: Mtc Qty=5 | Mtc Inv=2503659087
+Row 129: 
+Row 130: Barcode=30001184912371 | Inv no=2503659087 | SID=5609509014973 | PO=7GTA6Q2O | ASIN=B07XKHCJ9W | Inv Qty=5 | Rec Qty=5 | Mtc Qty=5 | Mtc Inv=2503632617
+Row 131: 
+Row 132: Barcode=30001163991526 | Inv no=2503632617 | SID=5522591014973 | PO=7CZZL2LB | ASIN=B0D6MMTD33 | Inv Qty=10 | Rec Qty=0 | Mtc Inv=No match found
+Row 133: 
+Row 134: 
+Row 135: Barcode=Barcode | Inv no=Inv no | SID=SID | PO=PO | ASIN=ASIN | Inv Qty=Inv Qty | Rec Qty=Rec Qty | Mtc Qty=Mtc Qty | Mtc Inv=Mtc Inv | Remarks=Remarks | Date=Date | CP=CP
+Row 136: Barcode=30001180912702 | Inv no=2503702230 | SID=5694387014973 | PO=2WTJXTFT | ASIN=B01CP5VZOM | Inv Qty=20 | Rec Qty=20 | Mtc Qty=15 | Mtc Inv=2503679395 | Date=2026-03-16 23:24:32 | CP=Claiming CP: 299.33 | Matched CP: N/A
+Row 137: Mtc Qty=5 | Mtc Inv=2503679395 | Remarks=Not Investigated Other Loop | CP=Claiming CP: 299.33 | Matched CP: N/A
+Row 138: Barcode=30001184729214 | Inv no=2503679395 | SID=5654653014973 | PO=5NY5XYFW | ASIN=B01ENCEOBG | Inv Qty=15 | Rec Qty=0 | Mtc Qty=0 | Mtc Inv=No match found | Remarks=SR
+Row 139: Barcode=30001184729214 | Inv no=2503679395 | SID=5654653014973 | PO=5NY5XYFW | ASIN=B0BB2J19PM | Inv Qty=5 | Rec Qty=0
