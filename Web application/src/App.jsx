@@ -203,7 +203,7 @@ export default function App() {
               <ServerCrash size={28} className="text-accent-red" />
             </div>
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-white">
-              MFI Investigation Framework
+              MFI Investigation Framework <span className="text-accent-red text-2xl">v6.2.5</span>
             </h1>
           </div>
           <p className="text-text-muted text-sm ml-[3.25rem] flex items-center gap-3">
