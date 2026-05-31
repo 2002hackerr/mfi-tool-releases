@@ -4490,11 +4490,14 @@ class InvestigationEngine:
 
         if ra > 0 or not unique: return rows, total_acc
         
+        # v7.3.6: Continue investigation only if there is still budget/shortage to solve.
+        if chain_rem <= 0: return rows, total_acc
         for match in unique:
             if match not in getattr(self, 'all_found_matches', []):
                 self.all_found_matches.append(match)
                 if hasattr(self, 'asin_pending_matches'):
                     self.asin_pending_matches.append(match)
+            if chain_rem <= 0: break
             while self.pause_requested and not self.stop_requested:
                 import time; time.sleep(0.5)
 
@@ -4509,12 +4512,6 @@ class InvestigationEngine:
             n_bud = safe_num(match['mtc_qty']) if safe_num(match['mtc_qty']) > 0 else chain_rem
             state = (extract_sid(c_sid), clean(n_inv), clean(n_po), clean(n_asin))
             if state in visited: continue
-
-            if chain_rem <= 0:
-                # v7.3.6 (Fixed for Auto Mode): Budget exhausted. Print matches without deep investigation.
-                c_rows, _, _, _, _, _ = self._build_level_logic(n_barcode, n_inv, n_sid, n_po, n_asin, n_iq, chain_rem, depth+1, False, exclude_pos=exclude_pos)
-                rows.extend(c_rows)
-                continue
 
             # v6.1.1: Log global processing so budget-exhausted sub-items drop out of pending correctly
             # v7.0.1: Vendor Level Data injection with SCR cleaning
@@ -5083,17 +5080,14 @@ class MFIToolApp:
     def _start_vault_investigation(self, sid, candidate, case, budget):
         if not hasattr(self, 'curr_m') or not self.curr_m:
             messagebox.showwarning("Warning", "Active investigation context required."); return
-            
-        c, bud = candidate, safe_num(budget)
-        f_bc = c.get('found_bc', '')
-        f_inv = c.get('found_inv', '')
-        f_iq = c.get('inv_qty', 0)
-        
-        self._set_status(f"Vault Cross PO confirmed ({c['po']}) - starting manual investigation of {int(bud)} units.", None)
-        claiming_po = self.curr_m.get('claiming_po', self.curr_m.get('p', ''))
-        
-        self.curr_m.update({'b':f_bc, 'i':f_inv, 's':c['sid'], 'p':c['po'], 'a':c['asin'], 'iq':f_iq, 'rem':bud, 'budget':bud, 'depth':self.curr_m.get('depth',0)+1, 'rendered':False, 'processed':self.curr_m.get('processed', set()), 'cross_po_checked':True, 'asin_rendered_levels':set(), 'claiming_po': claiming_po})
-        threading.Thread(target=self._man_step, daemon=True).start()
+        self.curr_m.update({'depth': self.curr_m.get('depth',0)+1})
+        def run_sub():
+            cr, fn = self.engine.run_cross_po_investigation(candidate, case, budget, depth=self.curr_m['depth'])
+            for r in cr:
+                self.curr_m['block'].append(r)
+                if self.preview and self.preview.winfo_exists(): self.root.after(0, lambda row=r: self.preview.add_row(row))
+            self._man_step()
+        threading.Thread(target=run_sub, daemon=True).start()
 
     def _set_status(self, msg, pct=None):
         self.root.after(0, lambda: (self.status.config(text=msg), (self.pb.__setitem__('value', pct) if pct is not None else None)))
